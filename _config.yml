@@ -8,7 +8,7 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Shin'ya Yamguchi
+title: Shin'ya Yamaguchi
 email: y.shinya.kml at gmail.com
 name: Shin'ya Yamaguchi
 # Base URL of site (i.e. /blog). It should always start with a slash,
