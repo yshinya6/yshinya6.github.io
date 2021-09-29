@@ -22,7 +22,7 @@ My research interests are deep learning and generative adversarial networks.
 
 # Publications
 ## International Conference
-1. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue, **Pruning Randomly Initialized Neural Networks with Iterative Randomization**, Neural Information Processing Systems (NeurIPS, **Spotlight**), 2021. [[arXiv]](https://arxiv.org/abs/2106.09269)
+1. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue, **Pruning Randomly Initialized Neural Networks with Iterative Randomization**, Neural Information Processing Systems (NeurIPS, **Spotlight**), 2021. [[arXiv]](https://arxiv.org/abs/2106.09269) [[code]](https://github.com/dchiji-ntt/iterand)
 2. <u>S. Yamaguchi</u>, S. Kanai, **F-Drop&Match: GANs with a Dead Zone in the High-Frequency Domain**, International Conference on Computer Vision (ICCV), 2021. [[arXiv]](https://arxiv.org/abs/2106.02343)
 3. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda, [**Image Enhanced Rotation Prediction for Self-Supervised Learning**](https://ieeexplore.ieee.org/document/9506132), IEEE International Conference on Image Processing (ICIP), 2021. [[arXiv]](https://arxiv.org/abs/1912.11603)
 4. S. Kanai, M. Yamada, <u>S. Yamaguchi</u>, H. Takahashi, Y. Ida, [**Constraining Logits by Bounded Function for Adversarial Robustness**](https://ieeexplore.ieee.org/document/9533777), International Joint Conference on Neural Networks (IJCNN), 2021. [[arXiv]](https://arxiv.org/abs/2010.02558)
