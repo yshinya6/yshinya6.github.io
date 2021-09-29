@@ -7,10 +7,10 @@ layout: post
   <div class="site-header-container">
     <div class="scrim">
       <header class="site-header">
-        <!-- <div class="round_img">
+        <div class="subimg">
         <img src="assets/me.jpg">
-        </div> -->
-        <h2 class="title">{{ site.title }}</h2>
+        </div>
+        <h3 class="title">{{ site.title }}</h3>
       </header>
     </div>
   </div>
