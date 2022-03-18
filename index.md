@@ -25,7 +25,10 @@ My research interests are deep learning and generative adversarial networks.
 
 # Publications
 ## International Conference
-1. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
+1. K. Adachi, <u>S. Yamaguchi</u>,
+[**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),  
+arXiv, 2022.
+2. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
 [**Pruning Randomly Initialized Neural Networks with Iterative Randomization**](https://openreview.net/pdf?id=QCPY2eMXYs),  
 Neural Information Processing Systems (NeurIPS, **Spotlight**), 2021. [[arXiv]](https://arxiv.org/abs/2106.09269) [[code]](https://github.com/dchiji-ntt/iterand)
 3. <u>S. Yamaguchi</u>, S. Kanai,  
@@ -45,13 +48,10 @@ AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
 ## Preprints
-1. K. Adachi, <u>S. Yamaguchi</u>,
-[**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),  
-arXiv, 2022.
 1. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Multiple pretext-task for self-supervised learning via mixing multiple image transformations**](https://arxiv.org/abs/1912.11603v1),  
 arXiv, 2019.
-3. K. Kuramitsu, <u>S. Yamaguchi</u>,  
+2. K. Kuramitsu, <u>S. Yamaguchi</u>,  
 [**XML Schema Validation using Parsing Expression Grammars**](https://peerj.com/preprints/1503.pdf),  
 PeerJ PrePrints, 2015
 
