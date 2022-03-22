@@ -27,7 +27,7 @@ My research interests are deep learning and generative adversarial networks.
 ## International Conference
 1. K. Adachi, <u>S. Yamaguchi</u>,
 [**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),  
-arXiv, 2022.
+IEEE International Conference on Multimedia & Expo (ICME), 2022.
 2. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
 [**Pruning Randomly Initialized Neural Networks with Iterative Randomization**](https://openreview.net/pdf?id=QCPY2eMXYs),  
 Neural Information Processing Systems (NeurIPS, **Spotlight**), 2021. [[arXiv]](https://arxiv.org/abs/2106.09269) [[code]](https://github.com/dchiji-ntt/iterand)
