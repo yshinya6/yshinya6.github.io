@@ -21,16 +21,20 @@ My research interests are generative adversarial networks, representation learni
 
 # Biography
 **Apr. 2022 - Current**
+
 Ph.D student at Dept. of Intelligence Science & Technology, Graduate School of Informatics, Kyoto University
 
 **Apr. 2017 - Current** 
+
 Researcher at NTT
 
 **Apr. 2015 - Mar. 2017**
-M. Engineering from Dept. of Computer Engineering, Graduate School of Engineering, Yokohama National University
+
+M.E. from Dept. of Computer Engineering, Graduate School of Engineering, Yokohama National University
 
 **Apr. 2011 - Mar. 2015**
-B. Engineering from Dept. of Computer Engineering, Yokohama National University
+
+B.E. from Dept. of Computer Engineering, Yokohama National University
 
 # Publications
 [Google Scholar](https://scholar.google.com/citations?user=_xJYVD0AAAAJ)
