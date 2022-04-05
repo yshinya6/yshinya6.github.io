@@ -16,14 +16,26 @@ layout: post
   </div>
 </div>
 
-I am a researcher at NTT as of 2017.
-My research interests are deep learning and generative adversarial networks.
+I am a researcher at NTT and a Ph.D student at Kyoto University ([Kashima Lab.](http://www.ml.ist.i.kyoto-u.ac.jp/en/)).
+My research interests are generative adversarial networks, representation learning, and transfer learning.
 
+# Biography
+**Apr. 2022 - Current**
+Ph.D student at Dept. of Intelligence Science & Technology, Graduate School of Informatics, Kyoto University
+
+**Apr. 2017 - Current** 
+Researcher at NTT
+
+**Apr. 2015 - Mar. 2017**
+M. Engineering from Dept. of Computer Engineering, Graduate School of Engineering, Yokohama National University
+
+**Apr. 2011 - Mar. 2015**
+B. Engineering from Dept. of Computer Engineering, Yokohama National University
+
+# Publications
 [Google Scholar](https://scholar.google.com/citations?user=_xJYVD0AAAAJ)
 
 [DBLP](https://dblp.org/pid/215/6588.html)
-
-# Publications
 ## International Conference
 1. K. Adachi, <u>S. Yamaguchi</u>,
 [**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),  
