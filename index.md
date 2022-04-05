@@ -20,20 +20,16 @@ I am a researcher at NTT and a Ph.D student at Kyoto University ([Kashima Lab.](
 My research interests are generative adversarial networks, representation learning, and transfer learning.
 
 # Biography
-**Apr. 2022 - Current**
-
+### Apr. 2022 - Current
 Ph.D student at Dept. of Intelligence Science & Technology, Graduate School of Informatics, Kyoto University
 
-**Apr. 2017 - Current** 
-
+### Apr. 2017 - Current
 Researcher at NTT
 
-**Apr. 2015 - Mar. 2017**
-
+### Apr. 2015 - Mar. 2017
 M.E. from Dept. of Computer Engineering, Graduate School of Engineering, Yokohama National University
 
-**Apr. 2011 - Mar. 2015**
-
+### Apr. 2011 - Mar. 2015
 B.E. from Dept. of Computer Engineering, Yokohama National University
 
 # Publications
