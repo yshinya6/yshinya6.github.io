@@ -19,6 +19,10 @@ layout: post
 I am a researcher at NTT and a Ph.D student at Kyoto University ([Kashima Lab.](http://www.ml.ist.i.kyoto-u.ac.jp/en/)).
 My research interests are generative adversarial networks, representation learning, and transfer learning.
 
+# Updates
+* **[2022/04/28]** We have published a preprint [Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation](https://arxiv.org/abs/2204.13263) on arXiv. This work proposed a new objective function that performs alignment between distributions in a test-time domain adaptation setting where the source dataset is inaccessible, achieving high accuracy even when there is a complex domain gap between target and source.
+* **[2022/04/27]** We have published a preprint [Transfer Learning with Pre-trained Conditional Generative Models](https://arxiv.org/abs/2204.12833) on arXiv. This work is the first attempt to apply conditional GAN in an inductive transfer learning setting where the target and source NN architectures do not match.
+
 # Biography
 ### Apr. 2022 - Current
 Ph.D student at Dept. of Intelligence Science & Technology, Graduate School of Informatics, Kyoto University
@@ -60,10 +64,16 @@ AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
 ## Preprints
-1. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
+1. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,
+[**Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation**](https://arxiv.org/abs/2204.13263),  
+arXiv, 2022.
+2. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+[**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833),  
+arXiv, 2022.
+3. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Multiple pretext-task for self-supervised learning via mixing multiple image transformations**](https://arxiv.org/abs/1912.11603v1),  
 arXiv, 2019.
-2. K. Kuramitsu, <u>S. Yamaguchi</u>,  
+4. K. Kuramitsu, <u>S. Yamaguchi</u>,  
 [**XML Schema Validation using Parsing Expression Grammars**](https://peerj.com/preprints/1503.pdf),  
 PeerJ PrePrints, 2015
 
