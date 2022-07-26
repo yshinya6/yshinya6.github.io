@@ -45,8 +45,8 @@ B.E. from Dept. of Computer Engineering, Yokohama National University
 
 [DBLP](https://dblp.org/pid/215/6588.html)
 ## International Conference
-1. K. Adachi, <u>S. Yamaguchi</u>,
-[**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),
+1. K. Adachi, <u>S. Yamaguchi</u>,  
+[**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),  
 IEEE International Conference on Multimedia & Expo (ICME), 2022.
 2. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
 [**Pruning Randomly Initialized Neural Networks with Iterative Randomization**](https://openreview.net/pdf?id=QCPY2eMXYs),  
@@ -57,7 +57,7 @@ International Conference on Computer Vision (ICCV), 2021. [[arXiv]](https://arxi
 4. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Image Enhanced Rotation Prediction for Self-Supervised Learning**](https://ieeexplore.ieee.org/document/9506132),  
 IEEE International Conference on Image Processing (ICIP), 2021. [[arXiv]](https://arxiv.org/abs/1912.11603)
-5. S. Kanai, M. Yamada, <u>S. Yamaguchi</u>, H. Takahashi, Y. Ida,  
+5. S. Kanai, M. Yamada, <u>S. Yamaguchi</u>, H. Takahashi, Y. Ida,   
 [**Constraining Logits by Bounded Function for Adversarial Robustness**](https://ieeexplore.ieee.org/document/9533777),  
 International Joint Conference on Neural Networks (IJCNN), 2021. [[arXiv]](https://arxiv.org/abs/2010.02558)
 6. <u>S. Yamaguchi</u>, S. Kanai, T. Eda,  
@@ -68,16 +68,16 @@ AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
 ## Preprints
-1. S. Kanai, <u>S. Yamaguchi</u>, M. Yamada, H. Takahashi, Y. Ida,
-[**Switching One-Versus-the-Rest Loss to Increase the Margin of Logits for Adversarial Robustness**](https://arxiv.org/abs/2207.10283),
+1. S. Kanai, <u>S. Yamaguchi</u>, M. Yamada, H. Takahashi, Y. Ida, 
+[**Switching One-Versus-the-Rest Loss to Increase the Margin of Logits for Adversarial Robustness**](https://arxiv.org/abs/2207.10283),  
 arXiv, 2022.
-2. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,
+2. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,  
 [**Meta-ticket: Finding optimal subnetworks for few-shot learning within randomly initialized neural networks**](https://arxiv.org/abs/2205.15619),  
 arXiv, 2022.
-3. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,
+3. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,  
 [**Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation**](https://arxiv.org/abs/2204.13263),  
 arXiv, 2022.
-4. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,
+4. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833),  
 arXiv, 2022.
 5. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
