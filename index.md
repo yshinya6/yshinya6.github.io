@@ -46,7 +46,7 @@ B.E. from Dept. of Computer Engineering, Yokohama National University
 [DBLP](https://dblp.org/pid/215/6588.html)
 ## International Conference
 1. K. Adachi, <u>S. Yamaguchi</u>,
-[**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),  
+[**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),
 IEEE International Conference on Multimedia & Expo (ICME), 2022.
 2. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
 [**Pruning Randomly Initialized Neural Networks with Iterative Randomization**](https://openreview.net/pdf?id=QCPY2eMXYs),  
@@ -71,13 +71,13 @@ Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 1. S. Kanai, <u>S. Yamaguchi</u>, M. Yamada, H. Takahashi, Y. Ida,
 [**Switching One-Versus-the-Rest Loss to Increase the Margin of Logits for Adversarial Robustness**](https://arxiv.org/abs/2207.10283),
 arXiv, 2022.
-2. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,  
+2. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,
 [**Meta-ticket: Finding optimal subnetworks for few-shot learning within randomly initialized neural networks**](https://arxiv.org/abs/2205.15619),  
 arXiv, 2022.
 3. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,
 [**Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation**](https://arxiv.org/abs/2204.13263),  
 arXiv, 2022.
-4. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+4. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,
 [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833),  
 arXiv, 2022.
 5. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
