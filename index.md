@@ -16,13 +16,16 @@ layout: post
   </div>
 </div>
 
-I am a researcher at NTT and a Ph.D student at Kyoto University ([Kashima Lab.](http://www.ml.ist.i.kyoto-u.ac.jp/en/)).
+I am a researcher at [NTT](https://www.rd.ntt/e/cds/) and a Ph.D student at Kyoto University ([Kashima Lab.](http://www.ml.ist.i.kyoto-u.ac.jp/en/)).
 My research interests are generative adversarial networks, representation learning, and transfer learning.
 
 # Updates
+* **[2022/07/21]** We have published a preprint [Switching One-Versus-the-Rest Loss to Increase the Margin of Logits for Adversarial Robustness](https://arxiv.org/abs/2207.10283) on arXiv. This paper investigates the cause of the vulnerability of adversarial training methods focusing on the importance of data points in terms of the margin between logits, and proposes switching one-versus-the-rest loss (SOVR), which promotes the margins to be increased.
+* **[2022/07/12]** I have been selected as an outstanding reviewer at ICML 2022, which is top 10% of all reviewers. This was the first reviewer assignment in my career.
 * **[2022/05/31]** We have published a preprint [Meta-ticket: Finding optimal subnetworks for few-shot learning within randomly initialized neural networks](https://arxiv.org/abs/2205.15619) on arXiv. In this paper, we propose a novel meta learning approach, which optimizing edges on neural networks instead of the weight to find a optimal subnetworks for few-shot learning.
-* **[2022/04/28]** We have published a preprint [Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation](https://arxiv.org/abs/2204.13263) on arXiv. This work proposed a new objective function that performs alignment between distributions in a test-time domain adaptation setting where the source dataset is inaccessible, achieving high accuracy even when there is a complex domain gap between target and source.
-* **[2022/04/27]** We have published a preprint [Transfer Learning with Pre-trained Conditional Generative Models](https://arxiv.org/abs/2204.12833) on arXiv. This work is the first attempt to apply conditional GAN in an inductive transfer learning setting where the target and source NN architectures do not match.
+
+# Activities
+* Reviewer: ICML 2022, NeurIPS 2022
 
 # Biography
 ### Apr. 2022 - Current
@@ -65,21 +68,27 @@ AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
 ## Preprints
-1. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,  
+1. S. Kanai, <u>S. Yamaguchi</u>, M. Yamada, H. Takahashi, Y. Ida,
+[**Switching One-Versus-the-Rest Loss to Increase the Margin of Logits for Adversarial Robustness**](https://arxiv.org/abs/2207.10283),
+arXiv, 2022.
+2. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,  
 [**Meta-ticket: Finding optimal subnetworks for few-shot learning within randomly initialized neural networks**](https://arxiv.org/abs/2205.15619),  
 arXiv, 2022.
-1. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,
+3. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,
 [**Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation**](https://arxiv.org/abs/2204.13263),  
 arXiv, 2022.
-3. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+4. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833),  
 arXiv, 2022.
-4. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
+5. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Multiple pretext-task for self-supervised learning via mixing multiple image transformations**](https://arxiv.org/abs/1912.11603v1),  
 arXiv, 2019.
-5. K. Kuramitsu, <u>S. Yamaguchi</u>,  
+6. K. Kuramitsu, <u>S. Yamaguchi</u>,  
 [**XML Schema Validation using Parsing Expression Grammars**](https://peerj.com/preprints/1503.pdf),  
 PeerJ PrePrints, 2015
+
+# Honors
+* Outstanding Reviewer: ICML 2022
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLL931QDKD"></script>
