@@ -26,7 +26,7 @@ My research interests are generative adversarial networks, representation learni
 
 
 # Activities
-* Reviewer: ICML 2022, NeurIPS 2022
+* Reviewer: ICML 2022, NeurIPS 2022, CVPR 2023, PAKDD 2023
 
 # Biography
 ### Apr. 2022 - Current
