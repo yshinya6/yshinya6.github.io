@@ -26,9 +26,9 @@ My research interests are generative adversarial networks, representation learni
 
 
 # Activities
-* Services as a Reviewer
-  - 2022: ICML, NeurIPS
-  - 2023: CVPR, PAKDD, ICML, ICCV
+## Services as a Reviewer
+- 2022: ICML, NeurIPS
+- 2023: CVPR, PAKDD, ICML, ICCV
 
 # Biography
 ### Apr. 2022 - Current
