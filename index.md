@@ -27,7 +27,7 @@ My research interests are machine learning with synthetic samples, generative mo
 # Activities
 ## Services as a Reviewer
 - 2022: ICML, NeurIPS
-- 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, BMVC
+- 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR (ICML Workshop), BMVC
 
 # Biography
 ### Apr. 2022 - Current
