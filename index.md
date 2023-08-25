@@ -17,7 +17,7 @@ layout: post
 </div>
 
 I am a researcher at [NTT](https://www.rd.ntt/e/cds/) and a Ph.D student at Kyoto University ([Kashima Lab.](http://www.ml.ist.i.kyoto-u.ac.jp/en/)).
-My research interests are machine learning with synthetic samples, generative models, distribution shifts, self-supervised learning, and semi-supervised learning.
+My research interests are machine learning with synthetic data, generative models, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
 * **[2023/07/27]** We published a pre-print [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) on arXiv! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes the synthetic samples for regularizing only feature extractors and finds useful samples through meta learning of latent variables. This paper will be presented at [DMLR workshop at ICML 2023](https://dmlr.ai/).
@@ -28,7 +28,7 @@ My research interests are machine learning with synthetic samples, generative mo
 # Activities
 ## Services as a Reviewer
 - 2022: ICML, NeurIPS
-- 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR (ICML Workshop), BMVC
+- 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR (ICML Workshop), BMVC, ACML
 
 # Biography
 ### Apr. 2022 - Current
