@@ -19,16 +19,22 @@ layout: post
 I am a researcher at [NTT](https://www.rd.ntt/e/cds/) and a Ph.D student at Kyoto University ([Kashima Lab.](http://www.ml.ist.i.kyoto-u.ac.jp/en/)).
 My research interests are machine learning with synthetic data, generative models, distribution shifts, self-supervised learning, and semi-supervised learning.
 
+---
+
 # Updates
 * **[2023/07/27]** We published a pre-print [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) on arXiv! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes the synthetic samples for regularizing only feature extractors and finds useful samples through meta learning of latent variables. This paper will be presented at [DMLR workshop at ICML 2023](https://dmlr.ai/).
 * **[2023/06/22]** Our paper [**Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation**](https://arxiv.org/abs/2204.13263) has been accepted to ICIP 2023! We found that existing test-time adaptation methods such as Tent fail to align feature distributions. This paper proposes a method for efficiently aligning feature distributions using pre-computed feature statistics (mean and covariance) to correct this problem. My contributions include writing guidance as a supervisor, improvement of the distribution matching algorithm and experimental setup design, including a distribution gap analysis.
 * **[2023/06/09]** We published a pre-print [**Revisiting Permutation Symmetry for Merging Models between Different Datasets**](https://arxiv.org/abs/2306.05641) on arXiv! This paper investigates how and why linear mode conectivity based model merging between different datasets is difficult. The short conclusions are that (i) model merging is more difficult when the datasets share less solution spaces, (ii) to achieve high performance, the two different datasets are required during merging, and (iii) the datasets for merging can be replaced by compressed dataset by dataset distillations. My main contribution was to organize the research questions and build on the idea of introducing dataset distillation.
 * **[2023/04/26]** Our paper [Switching One-Versus-the-Rest Loss to Increase the Margin of Logits for Adversarial Robustness](https://arxiv.org/abs/2207.10283) has been accepted to ICML 2023! This paper investigates the cause of the vulnerability of adversarial training methods focusing on the importance of data points in terms of the margin between logits, and proposes switching one-versus-the-rest loss (SOVR), which promotes the margins to be increased. I contributed to composing this paper's Introduction and Experiments as the second author.
 
+---
+
 # Activities
 ## Services as a Reviewer
 - 2022: ICML, NeurIPS
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR (ICML Workshop), BMVC, ACML
+
+---
 
 # Biography
 ### Apr. 2022 - Current
@@ -42,6 +48,8 @@ M.E. from Dept. of Computer Engineering, Graduate School of Engineering, Yokoham
 
 ### Apr. 2011 - Mar. 2015
 B.E. from Dept. of Computer Engineering, Yokohama National University
+
+---
 
 # Publications
 [Google Scholar](https://scholar.google.com/citations?user=_xJYVD0AAAAJ)
@@ -97,6 +105,8 @@ arXiv, 2019.
 4. K. Kuramitsu, <u>S. Yamaguchi</u>,  
 [**XML Schema Validation using Parsing Expression Grammars**](https://peerj.com/preprints/1503.pdf),  
 PeerJ PrePrints, 2015
+
+---
 
 # Honors
 * Outstanding Reviewer: ICML 2022
