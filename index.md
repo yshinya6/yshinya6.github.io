@@ -20,10 +20,9 @@ I am a researcher at [NTT](https://www.rd.ntt/e/cds/) and a Ph.D student at Kyot
 My research interests are machine learning with synthetic data, generative models, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
+* **[2023/09/22]** Our paper [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) has been accepted to NeurIPS 2023! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes the synthetic samples for regularizing only feature extractors and finds useful samples through meta learning of latent variables.
+* **[2023/09/11]** Our paper **Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples** has been accepted to ACML 2023! This paper proposes a real unlabeled-dateless semi-supervised learning that utilizes a foundation generative models as the unlabeled data source. We introduce meta-optimization based sampling algorithm for extracting synthetic unlabeled data from the foundation generative model and cosine similarity based unsupervised loss function for updating the feature extractor of classifier by the synthetic samples.
 * **[2023/09/02]** Our paper [**Adversarial Finetuning with Latent Representation Constraint to Mitigate Accuracy-Robustness Tradeoff**](https://arxiv.org/abs/2308.16454) has been accepted to ICCV 2023! We propose fine-tuning-based adversarial training algorithm for mitigating the trade-off between clean accuracy and robustness. For effectively preserving the knowledge of clean samples while adversarial fine-tuning, we introduce representation-guided knowledge distillation (RGKD) and noisy replay (NR). I contributed in technical writing and designing the experimental setup as the second author. We look forward to presenting this work in Paris!
-* **[2023/07/27]** We published a pre-print [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) on arXiv! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes the synthetic samples for regularizing only feature extractors and finds useful samples through meta learning of latent variables. This paper will be presented at [DMLR workshop at ICML 2023](https://dmlr.ai/).
-* **[2023/06/22]** Our paper [**Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation**](https://arxiv.org/abs/2204.13263) has been accepted to ICIP 2023! We found that existing test-time adaptation methods such as Tent fail to align feature distributions. This paper proposes a method for efficiently aligning feature distributions using pre-computed feature statistics (mean and covariance) to correct this problem. My contributions include writing guidance as a supervisor, improvement of the distribution matching algorithm and experimental setup design, including a distribution gap analysis.
-* **[2023/06/09]** We published a pre-print [**Revisiting Permutation Symmetry for Merging Models between Different Datasets**](https://arxiv.org/abs/2306.05641) on arXiv! This paper investigates how and why linear mode conectivity based model merging between different datasets is difficult. The short conclusions are that (i) model merging is more difficult when the datasets share less solution spaces, (ii) to achieve high performance, the two different datasets are required during merging, and (iii) the datasets for merging can be replaced by compressed dataset by dataset distillations. My main contribution was to organize the research questions and build on the idea of introducing dataset distillation.
 
 ---
 
@@ -55,37 +54,43 @@ B.E. from Dept. of Computer Engineering, Yokohama National University
 - [DBLP](https://dblp.org/pid/215/6588.html)
 
 ## International Conference
-1. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, S. Kanai, N. Makishima, A. Ando, R. Masumura,  
+1. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+[**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
+Neural Information Processing Systems (NeurIPS), 2023. 
+2. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**,  
+Asian Conference on Machine Learning, 2023. 
+3. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, S. Kanai, N. Makishima, A. Ando, R. Masumura,  
 [**Adversarial Finetuning with Latent Representation Constraint to Mitigate Accuracy-Robustness Tradeoff**](https://arxiv.org/abs/2308.16454),  
 International Conference on Computer Vision (ICCV), 2023.
-2. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,  
+4. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,  
 [**Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation**](https://arxiv.org/abs/2204.13263),  
 IEEE International Conference on Image Processing (ICIP), 2023.
-3. S. Kanai, <u>S. Yamaguchi</u>, M. Yamada, H. Takahashi, Y. Ida,  
+5. S. Kanai, <u>S. Yamaguchi</u>, M. Yamada, H. Takahashi, Y. Ida,  
 [**Switching One-Versus-the-Rest Loss to Increase the Margin of Logits for Adversarial Robustness**](https://arxiv.org/abs/2207.10283),  
 International Conference on Machine Learning (ICML), 2023.
-4. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,  
+6. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,  
 [**Meta-ticket: Finding optimal subnetworks for few-shot learning within randomly initialized neural networks**](https://arxiv.org/abs/2205.15619),  
 Neural Information Processing Systems (NeurIPS), 2022.
-5. K. Adachi, <u>S. Yamaguchi</u>,  
+7. K. Adachi, <u>S. Yamaguchi</u>,  
 [**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),  
 IEEE International Conference on Multimedia & Expo (ICME), 2022.
-6. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
+8. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
 [**Pruning Randomly Initialized Neural Networks with Iterative Randomization**](https://openreview.net/pdf?id=QCPY2eMXYs),  
 Neural Information Processing Systems (NeurIPS, **Spotlight**), 2021. [[arXiv]](https://arxiv.org/abs/2106.09269) [[code]](https://github.com/dchiji-ntt/iterand)
-7. <u>S. Yamaguchi</u>, S. Kanai,  
+9. <u>S. Yamaguchi</u>, S. Kanai,  
 [**F-Drop&Match: GANs with a Dead Zone in the High-Frequency Domain**](https://openaccess.thecvf.com/content/ICCV2021/html/Yamaguchi_F-DropMatch_GANs_With_a_Dead_Zone_in_the_High-Frequency_Domain_ICCV_2021_paper.html),  
 International Conference on Computer Vision (ICCV), 2021. [[arXiv]](https://arxiv.org/abs/2106.02343)
-8. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
+10. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Image Enhanced Rotation Prediction for Self-Supervised Learning**](https://ieeexplore.ieee.org/document/9506132),  
 IEEE International Conference on Image Processing (ICIP), 2021. [[arXiv]](https://arxiv.org/abs/1912.11603)
-9. S. Kanai, M. Yamada, <u>S. Yamaguchi</u>, H. Takahashi, Y. Ida,   
+11. S. Kanai, M. Yamada, <u>S. Yamaguchi</u>, H. Takahashi, Y. Ida,   
 [**Constraining Logits by Bounded Function for Adversarial Robustness**](https://ieeexplore.ieee.org/document/9533777),  
 International Joint Conference on Neural Networks (IJCNN), 2021. [[arXiv]](https://arxiv.org/abs/2010.02558)
-10. <u>S. Yamaguchi</u>, S. Kanai, T. Eda,  
+12. <u>S. Yamaguchi</u>, S. Kanai, T. Eda,  
 [**Effective Data Augmentation with Multi-Domain Learning GANs**](https://ojs.aaai.org/index.php/AAAI/article/view/6131),  
 AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv.org/abs/1912.11597)
-11. <u>S. Yamaguchi</u>, K. Kuramitsu,  
+13. <u>S. Yamaguchi</u>, K. Kuramitsu,  
 [**A Fusion Techniques of Schema and Syntax Rules for Validating Open Data**](https://link.springer.com/chapter/10.1007/978-3-319-56660-3_37),  
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
