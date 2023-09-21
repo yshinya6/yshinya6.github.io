@@ -59,7 +59,7 @@ B.E. from Dept. of Computer Engineering, Yokohama National University
 Neural Information Processing Systems (NeurIPS), 2023. 
 2. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 **Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**,  
-Asian Conference on Machine Learning, 2023. 
+Asian Conference on Machine Learning (ACML), 2023. 
 3. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, S. Kanai, N. Makishima, A. Ando, R. Masumura,  
 [**Adversarial Finetuning with Latent Representation Constraint to Mitigate Accuracy-Robustness Tradeoff**](https://arxiv.org/abs/2308.16454),  
 International Conference on Computer Vision (ICCV), 2023.
