@@ -21,7 +21,7 @@ My research interests are machine learning with synthetic data, generative model
 
 # Updates
 * **[2023/09/22]** Our paper [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) has been accepted to NeurIPS 2023! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes the synthetic samples for regularizing only feature extractors and finds useful samples through meta learning of latent variables.
-* **[2023/09/11]** Our paper **Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples** has been accepted to ACML 2023! This paper proposes a real unlabeled-dateless semi-supervised learning that utilizes a foundation generative models as the unlabeled data source. We introduce meta-optimization based sampling algorithm for extracting synthetic unlabeled data from the foundation generative model and cosine similarity based unsupervised loss function for updating the feature extractor of classifier by the synthetic samples.
+* **[2023/09/11]** My solo paper **Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples** has been accepted to ACML 2023! This paper proposes a real unlabeled-dateless semi-supervised learning that utilizes a foundation generative models as the unlabeled data source. We introduce meta-optimization based sampling algorithm for extracting synthetic unlabeled data from the foundation generative model and cosine similarity based unsupervised loss function for updating the feature extractor of classifier by the synthetic samples.
 * **[2023/09/02]** Our paper [**Adversarial Finetuning with Latent Representation Constraint to Mitigate Accuracy-Robustness Tradeoff**](https://arxiv.org/abs/2308.16454) has been accepted to ICCV 2023! We propose fine-tuning-based adversarial training algorithm for mitigating the trade-off between clean accuracy and robustness. For effectively preserving the knowledge of clean samples while adversarial fine-tuning, we introduce representation-guided knowledge distillation (RGKD) and noisy replay (NR). I contributed in technical writing and designing the experimental setup as the second author. We look forward to presenting this work in Paris!
 
 ---
@@ -57,7 +57,7 @@ B.E. from Dept. of Computer Engineering, Yokohama National University
 1. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
 Neural Information Processing Systems (NeurIPS), 2023. 
-2. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+2. <u>S. Yamaguchi</u>,  
 **Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**,  
 Asian Conference on Machine Learning (ACML), 2023. 
 3. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, S. Kanai, N. Makishima, A. Ando, R. Masumura,  
