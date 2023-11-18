@@ -20,17 +20,17 @@ I am a researcher at [NTT](https://www.rd.ntt/e/cds/) and a Ph.D student at Kyot
 My research interests are machine learning with synthetic data, generative models, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
+* **[2023/11/15]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been received Best Paper Award from ACML 2023! 
 * **[2023/09/22]** Our paper [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) has been accepted to NeurIPS 2023! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes the synthetic samples for regularizing only feature extractors and finds useful samples through meta learning of latent variables.
 * **[2023/09/11]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been accepted to ACML 2023! This paper proposes a real unlabeled-dateless semi-supervised learning that utilizes a foundation generative models as the unlabeled data source. We introduce meta-optimization based sampling algorithm for extracting synthetic unlabeled data from the foundation generative model and cosine similarity based unsupervised loss function for updating the feature extractor of classifier by the synthetic samples.
-* **[2023/09/02]** Our paper [**Adversarial Finetuning with Latent Representation Constraint to Mitigate Accuracy-Robustness Tradeoff**](https://arxiv.org/abs/2308.16454) has been accepted to ICCV 2023! We propose fine-tuning-based adversarial training algorithm for mitigating the trade-off between clean accuracy and robustness. For effectively preserving the knowledge of clean samples while adversarial fine-tuning, we introduce representation-guided knowledge distillation (RGKD) and noisy replay (NR). I contributed in technical writing and designing the experimental setup as the second author. We look forward to presenting this work in Paris!
 
 ---
 
 # Activities
-## Services as a Reviewer
+## Services as a Reviewer for Conference Paper
 - 2022: ICML, NeurIPS
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR (ICML Workshop), BMVC, ACML
-- 2024: WACV, ICLR
+- 2024: WACV, ICLR, CVPR
 
 ---
 
@@ -59,7 +59,7 @@ B.E. from Dept. of Computer Engineering, Yokohama National University
 Neural Information Processing Systems (NeurIPS), 2023. 
 2. <u>S. Yamaguchi</u>,  
 **Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**,  
-Asian Conference on Machine Learning (ACML), 2023. 
+Asian Conference on Machine Learning (ACML), **Best Paper Award**, 2023. 
 3. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, S. Kanai, N. Makishima, A. Ando, R. Masumura,  
 [**Adversarial Finetuning with Latent Representation Constraint to Mitigate Accuracy-Robustness Tradeoff**](https://arxiv.org/abs/2308.16454),  
 International Conference on Computer Vision (ICCV), 2023.
@@ -118,6 +118,7 @@ PeerJ PrePrints, 2015
 # Honors
 - Outstanding Reviewer: ICML 2022
 - 令和四年度 (2022) PRMU研究奨励賞 (outstanding research award at a Japanese domestic conference)
+- ACML2023 Best Paper Award
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLL931QDKD"></script>
