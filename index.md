@@ -20,6 +20,7 @@ I am a researcher at [NTT](https://www.rd.ntt/e/cds/) and a Ph.D student at Kyot
 My research interests are machine learning with synthetic data, generative models, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
+* **[2023/11/23]** Our preprint [**On the Limitation of Diffusion Models for Synthesizing Training Datasets**](https://arxiv.org/abs/2311.13090) appeared in arXiv! We analyzed diffusion models with various perspectives and found that modern diffusion models have a limitation on the ability to replicate datasets in terms of accuracy when the synthetic samples are used for training classifiers. This work will be presented at [NeurIPS 2023 SyntheticData4ML Workshop](https://www.syntheticdata4ml.vanderschaar-lab.com/). 
 * **[2023/11/15]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been received Best Paper Award from ACML 2023! 
 * **[2023/09/22]** Our paper [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) has been accepted to NeurIPS 2023! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes the synthetic samples for regularizing only feature extractors and finds useful samples through meta learning of latent variables.
 * **[2023/09/11]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been accepted to ACML 2023! This paper proposes a real unlabeled-dateless semi-supervised learning that utilizes a foundation generative models as the unlabeled data source. We introduce meta-optimization based sampling algorithm for extracting synthetic unlabeled data from the foundation generative model and cosine similarity based unsupervised loss function for updating the feature extractor of classifier by the synthetic samples.
@@ -27,9 +28,9 @@ My research interests are machine learning with synthetic data, generative model
 ---
 
 # Activities
-## Services as a Reviewer for Conference Paper
+## Services as a Reviewer
 - 2022: ICML, NeurIPS
-- 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR (ICML Workshop), BMVC, ACML
+- 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR (ICML Workshop), BMVC, ACML, TNNLS
 - 2024: WACV, ICLR, CVPR
 
 ---
@@ -95,7 +96,10 @@ AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
 ## International Workshop
-1. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+1. <u>S. Yamaguchi</u> and T. Fukuda,  
+[**On the Limitation of Diffusion Models for Synthesizing Training Datasets**](https://arxiv.org/abs/2311.13090),  
+SyntheticData4ML Workshop at NeurIPS 2023.
+2.  <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
 Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023.
 
