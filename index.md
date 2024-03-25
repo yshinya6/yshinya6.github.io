@@ -21,7 +21,7 @@ My research interests are machine learning with synthetic data, generative model
 
 # Updates
 * **[2024/3/18]** Our two papers **Test-Time Similarity Modification for Person Re-Identification Toward Temporal Distribution Shift** and **Test-Time Adaptation Meets Image Enhancement: Improving Accuracy via Uncertainty-Aware Logit Switching** have been accepted to IJCNN 2024!
-* **[2024/2/26]** Our paper [**Adaptive Random Regularization on Fine-tuning Deep Neural Networks**](https://arxiv.org/abs/2403.10097) has been accepted to CVPR 2024! We propose a simple yet effective fine-tuning method by penalizing feature extractors with randome reference vectors generated from adaptive class-conditional priors.
+* **[2024/2/26]** Our paper [**Adaptive Random Feature Regularization on Fine-tuning Deep Neural Networks**](https://arxiv.org/abs/2403.10097) has been accepted to CVPR 2024! We propose a simple yet effective fine-tuning method by penalizing feature extractors with randome reference vectors generated from adaptive class-conditional priors.
 * **[2023/11/23]** Our preprint [**On the Limitation of Diffusion Models for Synthesizing Training Datasets**](https://arxiv.org/abs/2311.13090) appeared in arXiv! We analyzed diffusion models with various perspectives and found that modern diffusion models have a limitation on the ability to replicate datasets in terms of accuracy when the synthetic samples are used for training classifiers. This work will be presented at [NeurIPS 2023 SyntheticData4ML Workshop](https://www.syntheticdata4ml.vanderschaar-lab.com/). 
 * **[2023/11/15]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been received Best Paper Award from ACML 2023! 
 * **[2023/09/22]** Our paper [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) has been accepted to NeurIPS 2023! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes the synthetic samples for regularizing only feature extractors and finds useful samples through meta learning of latent variables.
@@ -64,7 +64,7 @@ International Joint Conference on Neural Networks (IJCNN), 2024.
 **Test-Time Adaptation Meets Image Enhancement: Improving Accuracy via Uncertainty-Aware Logit Switching**,  
 International Joint Conference on Neural Networks (IJCNN), 2024. 
 3. <u>S. Yamaguchi</u>, S. Kanai, K. Adachi, D. Chijiwa,  
-[**Adaptive Random Regularization on Fine-tuning Deep Neural Networks**](https://arxiv.org/abs/2403.10097),  
+[**Adaptive Random Feature Regularization on Fine-tuning Deep Neural Networks**](https://arxiv.org/abs/2403.10097),  
 The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024. 
 4. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
