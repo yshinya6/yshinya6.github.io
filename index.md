@@ -16,10 +16,11 @@ layout: post
   </div>
 </div>
 
-I am a researcher at [NTT](https://www.rd.ntt/e/cds/) and a Ph.D student at Kyoto University ([Kashima Lab.](http://www.ml.ist.i.kyoto-u.ac.jp/en/)).
+I am an associate distinguished researcher at [NTT](https://www.rd.ntt/e/cds/) and a Ph.D student at Kyoto University ([Kashima Lab.](http://www.ml.ist.i.kyoto-u.ac.jp/en/)).
 My research interests are machine learning with synthetic data, generative models, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
+* **[2024/4/1]** I'm happy to annouce that I have been promoted to associate distinguished researcher in NTT!
 * **[2024/3/18]** Our two papers [**Test-Time Similarity Modification for Person Re-Identification Toward Temporal Distribution Shift**](https://arxiv.org/abs/2403.14114) and [**Test-Time Adaptation Meets Image Enhancement: Improving Accuracy via Uncertainty-Aware Logit Switching**](https://arxiv.org/abs/2403.17423) have been accepted to IJCNN 2024!
 * **[2024/2/26]** Our paper [**Adaptive Random Feature Regularization on Fine-tuning Deep Neural Networks**](https://arxiv.org/abs/2403.10097) has been accepted to CVPR 2024! We propose a simple yet effective fine-tuning method by penalizing feature extractors with randome reference vectors generated from adaptive class-conditional priors.
 * **[2023/11/23]** Our preprint [**On the Limitation of Diffusion Models for Synthesizing Training Datasets**](https://arxiv.org/abs/2311.13090) appeared in arXiv! We analyzed diffusion models with various perspectives and found that modern diffusion models have a limitation on the ability to replicate datasets in terms of accuracy when the synthetic samples are used for training classifiers. This work will be presented at [NeurIPS 2023 SyntheticData4ML Workshop](https://www.syntheticdata4ml.vanderschaar-lab.com/). 
