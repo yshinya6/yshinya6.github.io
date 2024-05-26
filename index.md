@@ -34,7 +34,7 @@ My research interests are machine learning with synthetic data, generative model
 ## Services as a Reviewer
 - 2022: ICML, NeurIPS
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
-- 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV
+- 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, ACML
 
 ---
 
