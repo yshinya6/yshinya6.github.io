@@ -66,7 +66,7 @@ International Joint Conference on Neural Networks (IJCNN), 2024.
 International Joint Conference on Neural Networks (IJCNN), 2024. 
 3. <u>S. Yamaguchi</u>, S. Kanai, K. Adachi, D. Chijiwa,  
 [**Adaptive Random Feature Regularization on Fine-tuning Deep Neural Networks**](https://arxiv.org/abs/2403.10097),  
-The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024. 
+The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024. [[code]](https://github.com/yshinya6/adarand) 
 4. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
 Neural Information Processing Systems (NeurIPS), 2023. 
