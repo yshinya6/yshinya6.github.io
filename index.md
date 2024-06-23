@@ -34,7 +34,7 @@ My research interests are machine learning with synthetic data, generative model
 ## Services as a Reviewer
 - 2022: ICML, NeurIPS
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
-- 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, ACML
+- 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024
 
 ---
 
@@ -65,8 +65,8 @@ International Joint Conference on Neural Networks (IJCNN), 2024.
 [**Test-Time Adaptation Meets Image Enhancement: Improving Accuracy via Uncertainty-Aware Logit Switching**](https://arxiv.org/abs/2403.17423),  
 International Joint Conference on Neural Networks (IJCNN), 2024. 
 3. <u>S. Yamaguchi</u>, S. Kanai, K. Adachi, D. Chijiwa,  
-[**Adaptive Random Feature Regularization on Fine-tuning Deep Neural Networks**](https://arxiv.org/abs/2403.10097),  
-The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024. [[code]](https://github.com/yshinya6/adarand) 
+[**Adaptive Random Feature Regularization on Fine-tuning Deep Neural Networks**](https://openaccess.thecvf.com/content/CVPR2024/html/Yamaguchi_Adaptive_Random_Feature_Regularization_on_Fine-tuning_Deep_Neural_Networks_CVPR_2024_paper.html),  
+The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024. [[code]](https://github.com/yshinya6/adarand) [[arXiv]](https://arxiv.org/abs/2403.10097) 
 4. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
 Neural Information Processing Systems (NeurIPS), 2023. 
@@ -108,13 +108,16 @@ AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
 ## International Workshop (Refereed)
-1. <u>S. Yamaguchi</u>,  
+1. K. Adachi, <u>S. Yamaguchi</u>, Atsutoshi Kumagai  
+[**Test-time Adaptation for Regression by Subspace Alignment**](https://tta-cvpr2024.github.io/_downloads/5c8596c2798bf34ada89ed342bb08d51/matc_1_test_time_adaptation_for_regre.pdf),  
+The 1st Workshop on Test-Time Adaptation at CVPR 2024. **Special Mentioned.**
+2. <u>S. Yamaguchi</u>,  
 **Analyzing Diffusion Models on Synthesizing Training Datasets**,  
 Data-centric Machine Learning Workshop at ICLR 2024. 
-2. <u>S. Yamaguchi</u> and T. Fukuda,  
+3. <u>S. Yamaguchi</u> and T. Fukuda,  
 [**On the Limitation of Diffusion Models for Synthesizing Training Datasets**](https://arxiv.org/abs/2311.13090),  
 SyntheticData4ML Workshop at NeurIPS 2023. 
-3.  <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+4.  <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
 Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023. 
 
