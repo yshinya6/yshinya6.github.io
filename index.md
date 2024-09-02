@@ -34,7 +34,8 @@ My research interests are machine learning with synthetic data, generative model
 ## Services as a Reviewer
 - 2022: ICML, NeurIPS
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
-- 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024
+- 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024, TMLR
+- 2025: AAAI
 
 ---
 
@@ -122,16 +123,19 @@ SyntheticData4ML Workshop at NeurIPS 2023.
 Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023. 
 
 ## Preprints
-1. M. Yamada, T. Yamashita, <u>S. Yamaguchi</u>, D. Chijiwa,  
+1. S. Kanai, Y. Ida, K. Adachim M. Uchida, T. Yoshida, <u>S. Yamaguchi</u>,  
+[**Evaluating Time-Series Training Dataset through Lens of Spectrum in Deep State Space Models**](https://arxiv.org/abs/2408.16261),  
+arXiv, 2024.
+2. M. Yamada, T. Yamashita, <u>S. Yamaguchi</u>, D. Chijiwa,  
 [**Revisiting Permutation Symmetry for Merging Models between Different Datasets**](https://arxiv.org/abs/2306.05641),  
 arXiv, 2023.
-2. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+3. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833),  
 arXiv, 2022.
-3. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
+4. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Multiple pretext-task for self-supervised learning via mixing multiple image transformations**](https://arxiv.org/abs/1912.11603v1),  
 arXiv, 2019.
-4. K. Kuramitsu, <u>S. Yamaguchi</u>,  
+5. K. Kuramitsu, <u>S. Yamaguchi</u>,  
 [**XML Schema Validation using Parsing Expression Grammars**](https://peerj.com/preprints/1503.pdf),  
 PeerJ PrePrints, 2015
 
