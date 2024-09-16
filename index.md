@@ -117,7 +117,7 @@ Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
 ## International Journal
 1. T. Sasaki, A. S. Walmsley, S. Enomoto, K. Adachi, <u>S. Yamaguchi</u>  
-[**Key Factors Determining the Required Number of Training Images in Person Re-Identification**],  
+**Key Factors Determining the Required Number of Training Images in Person Re-Identification**,  
 IEEE Access.
 
 ## International Workshop (Refereed)
