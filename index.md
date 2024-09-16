@@ -115,6 +115,11 @@ AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv
 [**A Fusion Techniques of Schema and Syntax Rules for Validating Open Data**](https://link.springer.com/chapter/10.1007/978-3-319-56660-3_37),  
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
+## International Journal
+1. T. Sasaki, A. S. Walmsley, S. Enomoto, K. Adachi, <u>S. Yamaguchi</u>  
+[**Key Factors Determining the Required Number of Training Images in Person Re-Identification**],  
+IEEE Access.
+
 ## International Workshop (Refereed)
 1. K. Adachi, <u>S. Yamaguchi</u>, Atsutoshi Kumagai  
 [**Test-time Adaptation for Regression by Subspace Alignment**](https://tta-cvpr2024.github.io/_downloads/5c8596c2798bf34ada89ed342bb08d51/matc_1_test_time_adaptation_for_regre.pdf),  
