@@ -17,10 +17,10 @@ layout: post
 </div>
 
 I am an associate distinguished researcher at [NTT](https://www.rd.ntt/e/cds/) and a Ph.D student at Kyoto University ([Kashima Lab.](http://www.ml.ist.i.kyoto-u.ac.jp/en/)).
-My research interests are machine learning with synthetic data, generative models, distribution shifts, self-supervised learning, and semi-supervised learning.
+My research interests are machine learning with synthetic data, generative models, vision-language models, explainability, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
-* **[2024/09/5]** My solo paper **Analyzing Diffusion Models on Synthesizing Training Datasets** and co-authored paper [**Toward Data Efficient Model Merging between Different Datasets without Performance Degradation**](https://arxiv.org/abs/2306.05641) have been accepted to ACML 2024 (**acceptance rate: 26%**)!
+* **[2024/9/5]** My solo paper **Analyzing Diffusion Models on Synthesizing Training Datasets** and co-authored paper [**Toward Data Efficient Model Merging between Different Datasets without Performance Degradation**](https://arxiv.org/abs/2306.05641) have been accepted to ACML 2024 (**acceptance rate: 26%**)!
 * **[2024/4/1]** I'm happy to annouce that I have been promoted to associate distinguished researcher in NTT!
 * **[2024/3/18]** Our two papers [**Test-Time Similarity Modification for Person Re-Identification Toward Temporal Distribution Shift**](https://arxiv.org/abs/2403.14114) and [**Test-Time Adaptation Meets Image Enhancement: Improving Accuracy via Uncertainty-Aware Logit Switching**](https://arxiv.org/abs/2403.17423) have been accepted to IJCNN 2024!
 * **[2024/2/26]** Our paper [**Adaptive Random Feature Regularization on Fine-tuning Deep Neural Networks**](https://arxiv.org/abs/2403.10097) has been accepted to CVPR 2024! We propose a simple yet effective fine-tuning method by penalizing feature extractors with randome reference vectors generated from adaptive class-conditional priors.
@@ -36,7 +36,7 @@ My research interests are machine learning with synthetic data, generative model
 - 2022: ICML, NeurIPS
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
 - 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024, TMLR
-- 2025: AAAI
+- 2025: AAAI, ICLR
 
 ---
 
@@ -135,16 +135,19 @@ SyntheticData4ML Workshop at NeurIPS 2023.
 Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023. 
 
 ## Preprints
-1. S. Kanai, Y. Ida, K. Adachim M. Uchida, T. Yoshida, <u>S. Yamaguchi</u>,  
+1. <u>S. Yamaguchi</u> and K. Nishida,  
+[**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663),  
+arXiv, 2024.
+2. S. Kanai, Y. Ida, K. Adachim M. Uchida, T. Yoshida, <u>S. Yamaguchi</u>,  
 [**Evaluating Time-Series Training Dataset through Lens of Spectrum in Deep State Space Models**](https://arxiv.org/abs/2408.16261),  
 arXiv, 2024.
-2. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+3. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833),  
 arXiv, 2022.
-3. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
+4. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Multiple pretext-task for self-supervised learning via mixing multiple image transformations**](https://arxiv.org/abs/1912.11603v1),  
 arXiv, 2019.
-4. K. Kuramitsu, <u>S. Yamaguchi</u>,  
+5. K. Kuramitsu, <u>S. Yamaguchi</u>,  
 [**XML Schema Validation using Parsing Expression Grammars**](https://peerj.com/preprints/1503.pdf),  
 PeerJ PrePrints, 2015
 
