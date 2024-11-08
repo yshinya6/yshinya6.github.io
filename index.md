@@ -36,7 +36,7 @@ My research interests are machine learning with synthetic data, generative model
 - 2022: ICML, NeurIPS
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
 - 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024, TMLR
-- 2025: AAAI, ICLR
+- 2025: AAAI, ICLR, AISTATS, CVPR
 
 ---
 
@@ -154,7 +154,7 @@ PeerJ PrePrints, 2015
 ---
 
 # Honors
-- Outstanding Reviewer: ICML 2022
+- Outstanding Reviewer: ICML 2022, NeurIPS 2024 Main Track, NeurIPS 2024 Dataset & Benchmark Track
 - 令和四年度 (2022) PRMU研究奨励賞 (outstanding research award at a Japanese domestic conference)
 - ACML2023 Best Paper Award
 
