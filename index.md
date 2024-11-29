@@ -121,23 +121,26 @@ Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 IEEE Access.
 
 ## International Workshop (Refereed)
-1. K. Adachi, <u>S. Yamaguchi</u>, Atsutoshi Kumagai  
+1. <u>S. Yamaguchi</u> and K. Nishida,  
+[**Toward Explanation Bottleneck Models**](https://openreview.net/forum?id=QsF1gbGwpf),  
+NeurIPS Workshop on Foundation Model Interventions (MINT), 2024. 
+2. K. Adachi, <u>S. Yamaguchi</u>, Atsutoshi Kumagai  
 [**Test-time Adaptation for Regression by Subspace Alignment**](https://tta-cvpr2024.github.io/_downloads/5c8596c2798bf34ada89ed342bb08d51/matc_1_test_time_adaptation_for_regre.pdf),  
 The 1st Workshop on Test-Time Adaptation at CVPR 2024. **Special Mentioned.**
-2. <u>S. Yamaguchi</u>,  
+3. <u>S. Yamaguchi</u>,  
 **Analyzing Diffusion Models on Synthesizing Training Datasets**,  
 Data-centric Machine Learning Workshop at ICLR 2024. 
-3. <u>S. Yamaguchi</u> and T. Fukuda,  
+4. <u>S. Yamaguchi</u> and T. Fukuda,  
 [**On the Limitation of Diffusion Models for Synthesizing Training Datasets**](https://arxiv.org/abs/2311.13090),  
 SyntheticData4ML Workshop at NeurIPS 2023. 
-4.  <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+5.  <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
 Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023. 
 
 ## Preprints
 1. <u>S. Yamaguchi</u> and K. Nishida,  
 [**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663),  
-arXiv, 2024.
+arXiv, 2024. 
 2. S. Kanai, Y. Ida, K. Adachim M. Uchida, T. Yoshida, <u>S. Yamaguchi</u>,  
 [**Evaluating Time-Series Training Dataset through Lens of Spectrum in Deep State Space Models**](https://arxiv.org/abs/2408.16261),  
 arXiv, 2024.
