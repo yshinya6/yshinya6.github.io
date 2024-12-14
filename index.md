@@ -63,7 +63,7 @@ B.E. from Dept. of Computer Engineering, Yokohama National University
 ## International Conference
 1. <u>S. Yamaguchi</u> and K. Nishida,  
 [**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663),  
-AAAI Conference on Artificial Intelligence (AAAI), 2024. 
+AAAI Conference on Artificial Intelligence (AAAI), 2024. [[code]](https://github.com/yshinya6/xbm) 
 2.  <u>S. Yamaguchi</u>,  
 **Analyzing Diffusion Models on Synthesizing Training Datasets**,  
 Asian Conference on Machine Learning (ACML), 2024.
