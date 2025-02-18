@@ -44,7 +44,7 @@ My research interests are machine learning with synthetic data, generative model
 - 2022: ICML, NeurIPS
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
 - 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024, TMLR
-- 2025: AAAI, ICLR, AISTATS, CVPR, ICML, TMLR
+- 2025: AAAI, ICLR, AISTATS, CVPR, ICML, TMLR, ICCV, NeurIPS
 
 ---
 
@@ -73,7 +73,7 @@ B.E. from Dept. of Computer Engineering, Yokohama National University
 International Conference on Learning Representations (ICLR), 2025. [[OpenReview]](https://openreview.net/forum?id=SXtl7NRyE5)  
 2. <u>S. Yamaguchi</u> and K. Nishida,  
 [**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663),  
-AAAI Conference on Artificial Intelligence (AAAI), 2025. [[code]](https://github.com/yshinya6/xbm) 
+AAAI Conference on Artificial Intelligence (AAAI), **Oral**, 2025. [[code]](https://github.com/yshinya6/xbm) 
 3.  <u>S. Yamaguchi</u>,  
 [**Analyzing Diffusion Models on Synthesizing Training Datasets**](https://proceedings.mlr.press/v260/yamaguchi25a.html),  
 Asian Conference on Machine Learning (ACML), 2024. [[OpenReview]](https://openreview.net/forum?id=x2PY6GP9GJ) 
