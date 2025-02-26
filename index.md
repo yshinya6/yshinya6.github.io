@@ -69,64 +69,67 @@ B.E. from Dept. of Computer Engineering, Yokohama National University
 - [DBLP](https://dblp.org/pid/215/6588.html)
 
 ## International Conference
-1. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,  
+1. <u>S. Yamaguchi</u>, F. Dewei, S. Kanai, K. Adachi, D. Chijiwa,  
+**Post-pre-training for Modality Alignment in Vision-Language Foundation Models**,  
+The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.  
+2. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,  
 [**Test-time Adaptation for Regression by Subspace Alignment**](https://arxiv.org/abs/2410.03263),  
 International Conference on Learning Representations (ICLR), 2025. [[OpenReview]](https://openreview.net/forum?id=SXtl7NRyE5)  
-2. <u>S. Yamaguchi</u> and K. Nishida,  
+3. <u>S. Yamaguchi</u> and K. Nishida,  
 [**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663),  
 AAAI Conference on Artificial Intelligence (AAAI), **Oral**, 2025. [[code]](https://github.com/yshinya6/xbm) 
-3.  <u>S. Yamaguchi</u>,  
+4.  <u>S. Yamaguchi</u>,  
 [**Analyzing Diffusion Models on Synthesizing Training Datasets**](https://proceedings.mlr.press/v260/yamaguchi25a.html),  
 Asian Conference on Machine Learning (ACML), 2024. [[OpenReview]](https://openreview.net/forum?id=x2PY6GP9GJ) 
-4. M. Yamada, T. Yamashita, <u>S. Yamaguchi</u>, D. Chijiwa,  
+5. M. Yamada, T. Yamashita, <u>S. Yamaguchi</u>, D. Chijiwa,  
 [**Toward Data Efficient Model Merging between Different Datasets without Performance Degradation**](https://proceedings.mlr.press/v260/yamada25a.html),  
 Asian Conference on Machine Learning (ACML), 2024. [[arXiv]](https://arxiv.org/abs/2306.05641) [[OpenReview]](https://openreview.net/forum?id=Le3qPaeSAn) 
-5. K. Adachi, S. Enomoto, T. Sasaki, <u>S. Yamaguchi</u>,  
+6. K. Adachi, S. Enomoto, T. Sasaki, <u>S. Yamaguchi</u>,  
 [**Test-Time Similarity Modification for Person Re-Identification Toward Temporal Distribution Shift**](https://arxiv.org/abs/2403.14114),  
 International Joint Conference on Neural Networks (IJCNN), 2024. 
-6. S. Enomoto, N. Hasegawa, K. Adachi, T. Sasaki, <u>S. Yamaguchi</u>, S. Suzuki, T. Eda,  
+7. S. Enomoto, N. Hasegawa, K. Adachi, T. Sasaki, <u>S. Yamaguchi</u>, S. Suzuki, T. Eda,  
 [**Test-Time Adaptation Meets Image Enhancement: Improving Accuracy via Uncertainty-Aware Logit Switching**](https://arxiv.org/abs/2403.17423),  
 International Joint Conference on Neural Networks (IJCNN), 2024. 
-7. <u>S. Yamaguchi</u>, S. Kanai, K. Adachi, D. Chijiwa,  
+8. <u>S. Yamaguchi</u>, S. Kanai, K. Adachi, D. Chijiwa,  
 [**Adaptive Random Feature Regularization on Fine-tuning Deep Neural Networks**](https://openaccess.thecvf.com/content/CVPR2024/html/Yamaguchi_Adaptive_Random_Feature_Regularization_on_Fine-tuning_Deep_Neural_Networks_CVPR_2024_paper.html),  
 The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024. [[code]](https://github.com/yshinya6/adarand) [[arXiv]](https://arxiv.org/abs/2403.10097) 
-8. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+9. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
 Neural Information Processing Systems (NeurIPS), 2023. 
-9. <u>S. Yamaguchi</u>,  
+10. <u>S. Yamaguchi</u>,  
 [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://proceedings.mlr.press/v222/yamaguchi24a.html),  
 Asian Conference on Machine Learning (ACML), **Best Paper Award**, 2023. 
-10. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, S. Kanai, N. Makishima, A. Ando, R. Masumura,  
+11. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, S. Kanai, N. Makishima, A. Ando, R. Masumura,  
 [**Adversarial Finetuning with Latent Representation Constraint to Mitigate Accuracy-Robustness Tradeoff**](https://arxiv.org/abs/2308.16454),  
 The IEEE/CVF International Conference on Computer Vision (ICCV), 2023.
-11. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,  
+12. K. Adachi, <u>S. Yamaguchi</u>, A. Kumagai,  
 [**Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation**](https://arxiv.org/abs/2204.13263),  
 IEEE International Conference on Image Processing (ICIP), 2023.
-12. S. Kanai, <u>S. Yamaguchi</u>, M. Yamada, H. Takahashi, Y. Ida,  
+13. S. Kanai, <u>S. Yamaguchi</u>, M. Yamada, H. Takahashi, Y. Ida,  
 [**Switching One-Versus-the-Rest Loss to Increase the Margin of Logits for Adversarial Robustness**](https://arxiv.org/abs/2207.10283),  
 International Conference on Machine Learning (ICML), 2023.
-13. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,  
+14. D. Chijiwa, <u>S. Yamaguchi</u>, A. Kumagai, Y. Ida,  
 [**Meta-ticket: Finding optimal subnetworks for few-shot learning within randomly initialized neural networks**](https://arxiv.org/abs/2205.15619),  
 Neural Information Processing Systems (NeurIPS), 2022.
-14. K. Adachi, <u>S. Yamaguchi</u>,  
+15. K. Adachi, <u>S. Yamaguchi</u>,  
 [**Learning Robust Convolutional Neural Networks with Relevant Feature Focusing via Explanations**](https://arxiv.org/abs/2202.04237),  
 IEEE International Conference on Multimedia & Expo (ICME), 2022.
-15. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
+16. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
 [**Pruning Randomly Initialized Neural Networks with Iterative Randomization**](https://openreview.net/pdf?id=QCPY2eMXYs),  
 Neural Information Processing Systems (NeurIPS, **Spotlight**), 2021. [[arXiv]](https://arxiv.org/abs/2106.09269) [[code]](https://github.com/dchiji-ntt/iterand)
-16. <u>S. Yamaguchi</u>, S. Kanai,  
+17. <u>S. Yamaguchi</u>, S. Kanai,  
 [**F-Drop&Match: GANs with a Dead Zone in the High-Frequency Domain**](https://openaccess.thecvf.com/content/ICCV2021/html/Yamaguchi_F-DropMatch_GANs_With_a_Dead_Zone_in_the_High-Frequency_Domain_ICCV_2021_paper.html),  
 International Conference on Computer Vision (ICCV), 2021. [[arXiv]](https://arxiv.org/abs/2106.02343)
-17. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
+18. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Image Enhanced Rotation Prediction for Self-Supervised Learning**](https://ieeexplore.ieee.org/document/9506132),  
 IEEE International Conference on Image Processing (ICIP), 2021. [[arXiv]](https://arxiv.org/abs/1912.11603)
-18. S. Kanai, M. Yamada, <u>S. Yamaguchi</u>, H. Takahashi, Y. Ida,   
+19. S. Kanai, M. Yamada, <u>S. Yamaguchi</u>, H. Takahashi, Y. Ida,   
 [**Constraining Logits by Bounded Function for Adversarial Robustness**](https://ieeexplore.ieee.org/document/9533777),  
 International Joint Conference on Neural Networks (IJCNN), 2021. [[arXiv]](https://arxiv.org/abs/2010.02558)
-19. <u>S. Yamaguchi</u>, S. Kanai, T. Eda,  
+20. <u>S. Yamaguchi</u>, S. Kanai, T. Eda,  
 [**Effective Data Augmentation with Multi-Domain Learning GANs**](https://ojs.aaai.org/index.php/AAAI/article/view/6131),  
 AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv.org/abs/1912.11597)
-20. <u>S. Yamaguchi</u>, K. Kuramitsu,  
+21. <u>S. Yamaguchi</u>, K. Kuramitsu,  
 [**A Fusion Techniques of Schema and Syntax Rules for Validating Open Data**](https://link.springer.com/chapter/10.1007/978-3-319-56660-3_37),  
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
