@@ -81,7 +81,7 @@ The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
 International Conference on Learning Representations (ICLR), 2025. [[OpenReview]](https://openreview.net/forum?id=SXtl7NRyE5)  
 4. <u>S. Yamaguchi</u> and K. Nishida,  
 [**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663),  
-AAAI Conference on Artificial Intelligence (AAAI), **Oral**, 2025. [[code]](https://github.com/yshinya6/xbm) 
+AAAI Conference on Artificial Intelligence (AAAI), **Oral**, 2025. [[Code]](https://github.com/yshinya6/xbm) 
 5.  <u>S. Yamaguchi</u>,  
 [**Analyzing Diffusion Models on Synthesizing Training Datasets**](https://proceedings.mlr.press/v260/yamaguchi25a.html),  
 Asian Conference on Machine Learning (ACML), 2024. [[OpenReview]](https://openreview.net/forum?id=x2PY6GP9GJ) 
@@ -96,7 +96,7 @@ International Joint Conference on Neural Networks (IJCNN), 2024.
 International Joint Conference on Neural Networks (IJCNN), 2024. 
 9. <u>S. Yamaguchi</u>, S. Kanai, K. Adachi, D. Chijiwa,  
 [**Adaptive Random Feature Regularization on Fine-tuning Deep Neural Networks**](https://openaccess.thecvf.com/content/CVPR2024/html/Yamaguchi_Adaptive_Random_Feature_Regularization_on_Fine-tuning_Deep_Neural_Networks_CVPR_2024_paper.html),  
-The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024. [[code]](https://github.com/yshinya6/adarand) [[arXiv]](https://arxiv.org/abs/2403.10097) 
+The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024. [[Code]](https://github.com/yshinya6/adarand) [[arXiv]](https://arxiv.org/abs/2403.10097) 
 10. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899),  
 Neural Information Processing Systems (NeurIPS), 2023. 
@@ -120,7 +120,7 @@ Neural Information Processing Systems (NeurIPS), 2022.
 IEEE International Conference on Multimedia & Expo (ICME), 2022.
 17. D. Chijiwa, <u>S. Yamaguchi</u>, Y. Ida, K. Umakoshi, T. Inoue,  
 [**Pruning Randomly Initialized Neural Networks with Iterative Randomization**](https://openreview.net/pdf?id=QCPY2eMXYs),  
-Neural Information Processing Systems (NeurIPS, **Spotlight**), 2021. [[arXiv]](https://arxiv.org/abs/2106.09269) [[code]](https://github.com/dchiji-ntt/iterand)
+Neural Information Processing Systems (NeurIPS, **Spotlight**), 2021. [[arXiv]](https://arxiv.org/abs/2106.09269) [[Code]](https://github.com/dchiji-ntt/iterand)
 18. <u>S. Yamaguchi</u>, S. Kanai,  
 [**F-Drop&Match: GANs with a Dead Zone in the High-Frequency Domain**](https://openaccess.thecvf.com/content/ICCV2021/html/Yamaguchi_F-DropMatch_GANs_With_a_Dead_Zone_in_the_High-Frequency_Domain_ICCV_2021_paper.html),  
 International Conference on Computer Vision (ICCV), 2021. [[arXiv]](https://arxiv.org/abs/2106.02343)
@@ -163,9 +163,9 @@ SyntheticData4ML Workshop at NeurIPS 2023.
 Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023. 
 
 ## Preprints
-1. S. Kanai, Y. Ida, K. Adachim M. Uchida, T. Yoshida, <u>S. Yamaguchi</u>,  
-[**Evaluating Time-Series Training Dataset through Lens of Spectrum in Deep State Space Models**](https://arxiv.org/abs/2408.16261),  
-arXiv, 2024.
+1. K. Adachi, <u>S. Yamaguchi</u>, T. Hamagami,  
+[**Uniformity First: Uniformity-aware Test-time Adaptation of Vision-language Models against Image Corruption**](https://arxiv.org/abs/2505.12912),  
+arXiv, 2025. [[Code]](https://github.com/kzkadc/uninfo)  
 2. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Multiple pretext-task for self-supervised learning via mixing multiple image transformations**](https://arxiv.org/abs/1912.11603v1),  
 arXiv, 2019.
