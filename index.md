@@ -163,13 +163,16 @@ SyntheticData4ML Workshop at NeurIPS 2023.
 Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023. 
 
 ## Preprints
-1. K. Adachi, <u>S. Yamaguchi</u>, T. Hamagami,  
+1. <u>S. Yamaguchi</u>, K. Nishida, D. Chijiwa,  
+[**Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought**](https://arxiv.org/abs/2507.07685),  
+arXiv, 2025.   
+2. K. Adachi, <u>S. Yamaguchi</u>, T. Hamagami,  
 [**Uniformity First: Uniformity-aware Test-time Adaptation of Vision-language Models against Image Corruption**](https://arxiv.org/abs/2505.12912),  
 arXiv, 2025. [[Code]](https://github.com/kzkadc/uninfo)  
-2. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
+3. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Multiple pretext-task for self-supervised learning via mixing multiple image transformations**](https://arxiv.org/abs/1912.11603v1),  
 arXiv, 2019.
-3. K. Kuramitsu, <u>S. Yamaguchi</u>,  
+4. K. Kuramitsu, <u>S. Yamaguchi</u>,  
 [**XML Schema Validation using Parsing Expression Grammars**](https://peerj.com/preprints/1503.pdf),  
 PeerJ PrePrints, 2015
 
