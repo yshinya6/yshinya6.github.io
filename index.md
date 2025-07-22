@@ -22,7 +22,7 @@ My research interests are machine learning with synthetic data, generative model
 # Updates
 * **[2025/4/1]** Our paper [**Evaluation of Time-Series Training Dataset through Lens of Spectrum of Deep State Space Models**](https://arxiv.org/abs/2408.16261) has been accepted to IJCNN 2025!
 * **[2025/2/26]** Our paper [**Post-pre-training for Modality Alignment in Vision-Language Foundation Models**](https://arxiv.org/abs/2504.12717) has been accepted to CVPR 2025! We propose a very lightweight post-pre-training method for aligning pre-trained vision-language models like CLIP. Stay tuned for more details!
-* **[2025/01/22]** Our paper [**Test-time Adaptation for Regression by Subspace Alignment**](https://arxiv.org/abs/2410.03263) has been accepted to ICLR 2025! This paper proposes a novel test-time adaptation method for regression tasks by aligning features on sub-space.
+* **[2025/01/22]** Our paper [**Test-time Adaptation for Regression by Subspace Alignment**](https://arxiv.org/abs/2410.03263) has been accepted to ICLR 2025! This paper proposes a novel test-time adaptation method for regression tasks by aligning features on a subspace.
 * **[2025/01/21]** Our paper [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833) has been accepted to Machine Learning Journal (ECML-PKDD Journal Track)! We propose a generative transfer learning method based on pre-trained large generative models for a severe setting where we cannot access source datasets and pre-trained weights for target tasks.
 * **[2024/12/10]** Our paper [**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663) has been accepted to AAAI 2025 (**acceptance rate: 23%**)! We propose a new interpretable model that generates text explanations and predicts the final label based on the text explanation. This work will be presented at the Workshop on Foundation Model Intervention (MINT) @ NeurIPS2024!
 * **[2024/9/5]** My solo paper [**Analyzing Diffusion Models on Synthesizing Training Datasets**](https://proceedings.mlr.press/v260/yamaguchi25a.html) and co-authored paper [**Toward Data Efficient Model Merging between Different Datasets without Performance Degradation**](https://arxiv.org/abs/2306.05641) have been accepted to ACML 2024 (**acceptance rate: 20%**)!
@@ -36,7 +36,7 @@ My research interests are machine learning with synthetic data, generative model
   * **[2023/11/23]** Our preprint [**On the Limitation of Diffusion Models for Synthesizing Training Datasets**](https://arxiv.org/abs/2311.13090) appeared in arXiv! We analyzed diffusion models with various perspectives and found that modern diffusion models have a limitation on the ability to replicate datasets in terms of accuracy when the synthetic samples are used for training classifiers. This work will be presented at [NeurIPS 2023 SyntheticData4ML Workshop](https://www.syntheticdata4ml.vanderschaar-lab.com/). 
   * **[2023/11/15]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been received Best Paper Award from ACML 2023! 
   * **[2023/09/22]** Our paper [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) has been accepted to NeurIPS 2023! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes synthetic samples for regularizing only feature extractors and finds useful samples through meta-learning of latent variables.
-  * **[2023/09/11]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been accepted to ACML 2023! This paper proposes a real unlabeled-dateless semi-supervised learning that utilizes a foundation generative models as the unlabeled data source. We introduce a meta-optimization-based sampling algorithm for extracting synthetic unlabeled data from the foundation generative model and a cosine similarity-based unsupervised loss function for updating the feature extractor of the classifier by the synthetic samples.
+  * **[2023/09/11]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been accepted to ACML 2023! This paper proposes a real unlabeled-dateless semi-supervised learning that utilizes a foundation generative model as the unlabeled data source. We introduce a meta-optimization-based sampling algorithm for extracting synthetic unlabeled data from the foundation generative model and a cosine similarity-based unsupervised loss function for updating the feature extractor of the classifier by the synthetic samples.
 </details>
 
 ---
@@ -46,7 +46,7 @@ My research interests are machine learning with synthetic data, generative model
 - 2022: ICML, NeurIPS
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
 - 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024, TMLR
-- 2025: AAAI, ICLR, AISTATS, CVPR, ICML, TMLR, ICCV, NeurIPS,
+- 2025: AAAI, ICLR, AISTATS, CVPR, ICML, TMLR, ICCV, NeurIPS, Pattern Recognition
 
 ---
 
