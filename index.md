@@ -47,6 +47,7 @@ My research interests are machine learning with synthetic data, generative model
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
 - 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024, TMLR
 - 2025: AAAI, ICLR, AISTATS, CVPR, ICML, TMLR, ICCV, NeurIPS, Pattern Recognition
+- 2026: WACV, AAAI
 
 ---
 
