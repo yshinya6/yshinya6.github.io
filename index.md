@@ -20,7 +20,7 @@ I am an associate distinguished researcher at [NTT](https://www.rd.ntt/e/cds/).
 My research interests are machine learning with synthetic data, generative models, vision-language models, explainability, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
-* * **[2025/11/9]** Our paper **Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models** has been accepted to AAAI 2026 (Acceptance Rate: 17.6%)! We proposed a robust fine-tuning method for CLIP-like models, which preserves geometric structures in feature spaces to maintain zero-shot performance.
+* **[2025/11/9]** Our paper **Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models** has been accepted to AAAI 2026 (Acceptance Rate: 17.6%)! We proposed a robust fine-tuning method for CLIP-like models, which preserves geometric structures in feature spaces to maintain zero-shot performance.
 * **[2025/9/24]** My doctoral dissertation, **Dataset Synthesis with Deep Generative Models**, has been accepted, and I received a PhD in Informatics!
 * **[2025/4/1]** Our paper [**Evaluation of Time-Series Training Dataset through Lens of Spectrum of Deep State Space Models**](https://arxiv.org/abs/2408.16261) has been accepted to IJCNN 2025!
 * **[2025/2/26]** Our paper [**Post-pre-training for Modality Alignment in Vision-Language Foundation Models**](https://arxiv.org/abs/2504.12717) has been accepted to CVPR 2025! We propose a very lightweight post-pre-training method for aligning pre-trained vision-language models like CLIP. Stay tuned for more details!
