@@ -21,8 +21,8 @@ My research interests are machine learning with synthetic data, generative model
 
 # Updates
 * **[2025/11/10]** Our paper **Distribution Highlighted Reference-based Label Distribution Learning for Facial Age Estimation** has been accepted to WACV 2026!
-* **[2025/11/9]** Our paper **Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models** has been accepted to AAAI 2026 (Acceptance Rate: 17.6%)! We proposed a robust fine-tuning method for CLIP-like models, which preserves geometric structures in feature spaces to maintain zero-shot performance.
-* **[2025/9/24]** My doctoral dissertation, **Dataset Synthesis with Deep Generative Models**, has been accepted, and I received a PhD in Informatics!
+* **[2025/11/9]** Our paper **[Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models](https://arxiv.org/abs/2511.09973)** has been accepted to AAAI 2026 (Acceptance Rate: 17.6%)! We proposed a robust fine-tuning method for CLIP-like models, which preserves geometric structures in feature spaces to maintain zero-shot performance.
+* **[2025/9/24]** My doctoral dissertation, **[Dataset Synthesis with Deep Generative Models](https://repository.kulib.kyoto-u.ac.jp/items/610a9db4-75a2-4a2f-bf9c-d0bf94578190)**, has been accepted, and I received a PhD in Informatics!
 * **[2025/4/1]** Our paper [**Evaluation of Time-Series Training Dataset through Lens of Spectrum of Deep State Space Models**](https://arxiv.org/abs/2408.16261) has been accepted to IJCNN 2025!
 * **[2025/2/26]** Our paper [**Post-pre-training for Modality Alignment in Vision-Language Foundation Models**](https://arxiv.org/abs/2504.12717) has been accepted to CVPR 2025! We propose a very lightweight post-pre-training method for aligning pre-trained vision-language models like CLIP.
 * **[2025/01/22]** Our paper [**Test-time Adaptation for Regression by Subspace Alignment**](https://arxiv.org/abs/2410.03263) has been accepted to ICLR 2025! This paper proposes a novel test-time adaptation method for regression tasks by aligning features on a subspace.
@@ -78,7 +78,7 @@ B.E. from Dept. of Computer Engineering, Yokohama National University (Superviso
 **Distribution Highlighted Reference-based Label Distribution Learning for Facial Age Estimation**,  
 The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2026. 
 2. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, T. Yamane, N. Makishima, N. Kawata, M. Ihori, T. Tanaka, S. Orihashi, R. Masumura,  
-**Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models**,  
+[**Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models**](https://arxiv.org/abs/2511.09973),  
 AAAI Conference on Artificial Intelligence (AAAI), 2026. 
 3. S. Kanai, Y. Ida, K. Adachi, M. Uchida, T. Yoshida, <u>S. Yamaguchi</u>,  
 [**Evaluating Time-Series Training Dataset through Lens of Spectrum in Deep State Space Models**](https://arxiv.org/abs/2408.16261),  
@@ -185,6 +185,12 @@ arXiv, 2019.
 4. K. Kuramitsu, <u>S. Yamaguchi</u>,  
 [**XML Schema Validation using Parsing Expression Grammars**](https://peerj.com/preprints/1503.pdf),  
 PeerJ PrePrints, 2015
+
+## Thesis
+- [**Dataset Synthesis with Deep Generative Models**](https://repository.kulib.kyoto-u.ac.jp/items/610a9db4-75a2-4a2f-bf9c-d0bf94578190)
+  - for Ph.D in Informatics at Kyoto University
+  - Supervisor: Hisashi Kashima (Kyoto University)
+  - Comittee: Koh Nishino and Hidetoshi Shimodaira (Kyoto University)
 
 ---
 
