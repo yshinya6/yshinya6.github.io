@@ -20,7 +20,7 @@ I am an associate distinguished researcher at [NTT](https://www.rd.ntt/e/cds/).
 My research interests are machine learning with synthetic data, generative models, vision-language models, explainability, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
-* **[2025/2/21]** Our paper [**Parallel In-context Learning for Large Vision Language Models**] has been suggested for CVPR 2026 Findings (Top 35% of the reviewed submissions)!
+* **[2025/2/21]** Our paper **Parallel In-context Learning for Large Vision Language Models** has been suggested for Findings of CVPR 2026 (Top 35% of the reviewed submissions)!
 * **[2025/2/21]** Our paper [**Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought**](https://arxiv.org/abs/2507.07685) has been accepted to CVPR 2026 (Main Conference, Acceptance Rate: 25.42%)!
 * **[2025/1/26]** Our paper [**Lossless Vocabulary Reduction for Auto-Regressive Language Models**](https://arxiv.org/abs/2510.08102) has been accepted to ICLR 2026!
 * **[2025/11/10]** Our paper **Distribution Highlighted Reference-based Label Distribution Learning for Facial Age Estimation** has been accepted to WACV 2026!
