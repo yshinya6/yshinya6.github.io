@@ -28,13 +28,13 @@ My research interests are machine learning with synthetic data, generative model
 * **[2025/9/24]** My doctoral dissertation, **[Dataset Synthesis with Deep Generative Models](https://repository.kulib.kyoto-u.ac.jp/items/610a9db4-75a2-4a2f-bf9c-d0bf94578190)**, has been accepted, and I received a PhD in Informatics!
 * **[2025/4/1]** Our paper [**Evaluation of Time-Series Training Dataset through Lens of Spectrum of Deep State Space Models**](https://arxiv.org/abs/2408.16261) has been accepted to IJCNN 2025!
 * **[2025/2/26]** Our paper [**Post-pre-training for Modality Alignment in Vision-Language Foundation Models**](https://arxiv.org/abs/2504.12717) has been accepted to CVPR 2025! We propose a very lightweight post-pre-training method for aligning pre-trained vision-language models like CLIP.
-* **[2025/01/22]** Our paper [**Test-time Adaptation for Regression by Subspace Alignment**](https://arxiv.org/abs/2410.03263) has been accepted to ICLR 2025! This paper proposes a novel test-time adaptation method for regression tasks by aligning features on a subspace.
-* **[2025/01/21]** Our paper [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833) has been accepted to Machine Learning Journal (ECML-PKDD Journal Track)! We propose a generative transfer learning method based on pre-trained large generative models for a severe setting where we cannot access source datasets and pre-trained weights for target tasks.
-* **[2024/12/10]** Our paper [**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663) has been accepted to AAAI 2025 (**acceptance rate: 23%**)! We propose a new interpretable model that generates text explanations and predicts the final label based on the text explanation. This work will be presented at the Workshop on Foundation Model Intervention (MINT) @ NeurIPS2024!
 
 <details markdown="1">
   <summary><b><u>Past Updates</u></b></summary>
 
+  * **[2025/01/22]** Our paper [**Test-time Adaptation for Regression by Subspace Alignment**](https://arxiv.org/abs/2410.03263) has been accepted to ICLR 2025! This paper proposes a novel test-time adaptation method for regression tasks by aligning features on a subspace.
+  * **[2025/01/21]** Our paper [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833) has been accepted to Machine Learning Journal (ECML-PKDD Journal Track)! We propose a generative transfer learning method based on pre-trained large generative models for a severe setting where we cannot access source datasets and pre-trained weights for target tasks.
+  * **[2024/12/10]** Our paper [**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663) has been accepted to AAAI 2025 (**acceptance rate: 23%**)! We propose a new interpretable model that generates text explanations and predicts the final label based on the text explanation. This work will be presented at the Workshop on Foundation Model Intervention (MINT) @ NeurIPS2024!
   * **[2024/9/5]** My solo paper [**Analyzing Diffusion Models on Synthesizing Training Datasets**](https://proceedings.mlr.press/v260/yamaguchi25a.html) and co-authored paper [**Toward Data Efficient Model Merging between Different Datasets without Performance Degradation**](https://arxiv.org/abs/2306.05641) have been accepted to ACML 2024 (**acceptance rate: 20%**)!
   * **[2024/4/1]** I'm happy to announce that I have been promoted to an associate distinguished researcher at NTT!
   * **[2024/3/18]** Our two papers [**Test-Time Similarity Modification for Person Re-Identification Toward Temporal Distribution Shift**](https://arxiv.org/abs/2403.14114) and [**Test-Time Adaptation Meets Image Enhancement: Improving Accuracy via Uncertainty-Aware Logit Switching**](https://arxiv.org/abs/2403.17423) have been accepted to IJCNN 2024!
@@ -53,7 +53,7 @@ My research interests are machine learning with synthetic data, generative model
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
 - 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024, TMLR
 - 2025: AAAI, ICLR, AISTATS, CVPR, ICML, TMLR, ICCV, NeurIPS, Pattern Recognition
-- 2026: WACV, AAAI, ICLR, CVPR, ICME, ICML
+- 2026: WACV, AAAI, ICLR, CVPR, ICME, ICML, ECCV
 
 ---
 
