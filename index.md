@@ -23,7 +23,7 @@ My research interests are machine learning with synthetic data, generative model
 * **[2025/2/21]** Our paper **Parallel In-context Learning for Large Vision Language Models** has been suggested for Findings of CVPR 2026 (Top 35% of the reviewed submissions)!
 * **[2025/2/21]** Our paper [**Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought**](https://arxiv.org/abs/2507.07685) has been accepted to CVPR 2026 (Main Conference, Acceptance Rate: 25.42%)!
 * **[2025/1/26]** Our paper [**Lossless Vocabulary Reduction for Auto-Regressive Language Models**](https://arxiv.org/abs/2510.08102) has been accepted to ICLR 2026!
-* **[2025/11/10]** Our paper **Distribution Highlighted Reference-based Label Distribution Learning for Facial Age Estimation** has been accepted to WACV 2026!
+* **[2025/11/10]** Our paper [**Distribution Highlighted Reference-based Label Distribution Learning for Facial Age Estimation**](https://openaccess.thecvf.com/content/WACV2026/html/Suzuki_Distribution_Highlighted_Reference-based_Label_Distribution_Learning_for_Facial_Age_Estimation_WACV_2026_paper.html) has been accepted to WACV 2026!
 * **[2025/11/9]** Our paper **[Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models](https://arxiv.org/abs/2511.09973)** has been accepted to AAAI 2026 (Acceptance Rate: 17.6%)! We proposed a robust fine-tuning method for CLIP-like models, which preserves geometric structures in feature spaces to maintain zero-shot performance.
 * **[2025/9/24]** My doctoral dissertation, **[Dataset Synthesis with Deep Generative Models](https://repository.kulib.kyoto-u.ac.jp/items/610a9db4-75a2-4a2f-bf9c-d0bf94578190)**, has been accepted, and I received a PhD in Informatics!
 * **[2025/4/1]** Our paper [**Evaluation of Time-Series Training Dataset through Lens of Spectrum of Deep State Space Models**](https://arxiv.org/abs/2408.16261) has been accepted to IJCNN 2025!
@@ -87,7 +87,7 @@ The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.
 [**Lossless Vocabulary Reduction for Auto-Regressive Language Models**](https://arxiv.org/abs/2510.08102),  
 International Conference on Learning Representations (ICLR), 2026. 
 4. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, T. Yamane, N. Makishima, N. Kawata, M. Ihori, T. Tanaka, S. Orihashi, R. Masumura,  
-**Distribution Highlighted Reference-based Label Distribution Learning for Facial Age Estimation**,  
+[**Distribution Highlighted Reference-based Label Distribution Learning for Facial Age Estimation**](https://openaccess.thecvf.com/content/WACV2026/html/Suzuki_Distribution_Highlighted_Reference-based_Label_Distribution_Learning_for_Facial_Age_Estimation_WACV_2026_paper.html),  
 The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2026. 
 5. S. Suzuki, <u>S. Yamaguchi</u>, S. Takeda, T. Yamane, N. Makishima, N. Kawata, M. Ihori, T. Tanaka, S. Orihashi, R. Masumura,  
 [**Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models**](https://arxiv.org/abs/2511.09973),  
