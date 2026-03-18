@@ -21,7 +21,7 @@ My research interests are machine learning with synthetic data, generative model
 
 # Updates
 * **[2026/3/18]** Our paper [**Zero-shot Concept Bottleneck Models**](https://arxiv.org/abs/2502.09018) has been accepted to IEEE ICML 2026 (Acceptance Rate: 28.89%)!
-* **[2026/2/21]** Our paper **Parallel In-context Learning for Large Vision Language Models** has been suggested for Findings of CVPR 2026 (Top 35% of the reviewed submissions)!
+* **[2026/2/21]** Our paper [**Parallel In-context Learning for Large Vision Language Models**](https://arxiv.org/abs/2603.16092) has been suggested for Findings of CVPR 2026 (Top 35% of the reviewed submissions)!
 * **[2026/2/21]** Our paper [**Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought**](https://arxiv.org/abs/2507.07685) has been accepted to CVPR 2026 (Main Conference, Acceptance Rate: 25.42%)!
 * **[2026/1/26]** Our paper [**Lossless Vocabulary Reduction for Auto-Regressive Language Models**](https://arxiv.org/abs/2510.08102) has been accepted to ICLR 2026!
 * **[2025/11/10]** Our paper [**Distribution Highlighted Reference-based Label Distribution Learning for Facial Age Estimation**](https://openaccess.thecvf.com/content/WACV2026/html/Suzuki_Distribution_Highlighted_Reference-based_Label_Distribution_Learning_for_Facial_Age_Estimation_WACV_2026_paper.html) has been accepted to WACV 2026!
@@ -82,7 +82,7 @@ B.E. from Dept. of Computer Engineering, Yokohama National University (Superviso
 [**Zero-shot Concept Bottleneck Models**](https://arxiv.org/abs/2502.09018),  
 IEEE International Conference on Multimedia & Expo (ICME), 2026. [[Code]](https://github.com/yshinya6/zcbm)  
 2. <u>S. Yamaguchi</u>, D. Chijiwa, T. Sakao, T. Hasegawa,  
-**Parallel In-context Learning for Large Vision Language Models**,  
+[**Parallel In-context Learning for Large Vision Language Models**](https://arxiv.org/abs/2603.16092),  
 Findings of The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026. [[Code]](https://github.com/yshinya6/parallel-icl)   
 3. <u>S. Yamaguchi</u>, K. Nishida, D. Chijiwa,  
 [**Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought**](https://arxiv.org/abs/2507.07685),  
