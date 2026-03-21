@@ -17,7 +17,7 @@ layout: post
 </div>
 
 I am an associate distinguished researcher at [NTT](https://www.rd.ntt/e/cds/).
-My research interests are machine learning with synthetic data, generative models, vision-language models, explainability, distribution shifts, self-supervised learning, and semi-supervised learning.
+My research interests are machine learning with synthetic data, generative models, vision-language models, interpretability, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
 * **[2026/3/18]** Our paper [**Zero-shot Concept Bottleneck Models**](https://arxiv.org/abs/2502.09018) has been accepted to IEEE ICML 2026 (Acceptance Rate: 28.89%)!
@@ -54,7 +54,7 @@ My research interests are machine learning with synthetic data, generative model
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
 - 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024, TMLR
 - 2025: AAAI, ICLR, AISTATS, CVPR, ICML, TMLR, ICCV, NeurIPS, Pattern Recognition
-- 2026: WACV, AAAI, ICLR, CVPR, ICME, ICML, ECCV
+- 2026: WACV, AAAI, ICLR, CVPR, ICME, ICML, TPAMI, ECCV
 
 ---
 
