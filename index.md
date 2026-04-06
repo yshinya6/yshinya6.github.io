@@ -78,7 +78,7 @@ B.E. from Dept. of Computer Engineering, Yokohama National University (Superviso
 - [DBLP](https://dblp.org/pid/215/6588.html)
 
 ## International Conference
-1. <u>S. Yamaguchi</u>, K. Nishida, D. Chijiwa, Y. Ida,
+1. <u>S. Yamaguchi</u>, K. Nishida, D. Chijiwa, Y. Ida,   
 [**Zero-shot Concept Bottleneck Models**](https://arxiv.org/abs/2502.09018),  
 IEEE International Conference on Multimedia & Expo (ICME), 2026. [[Code]](https://github.com/yshinya6/zcbm)  
 2. <u>S. Yamaguchi</u>, D. Chijiwa, T. Sakao, T. Hasegawa,  
