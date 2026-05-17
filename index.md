@@ -20,6 +20,7 @@ I am an associate distinguished researcher at [NTT](https://www.rd.ntt/e/cds/).
 My research interests are machine learning with synthetic data, generative models, vision-language models, interpretability, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
+* **[2026/5/15]** I received the Gold Reviewer Award at ICML 2026 (Top 25% Reviewer).
 * **[2026/3/18]** Our paper [**Zero-shot Concept Bottleneck Models**](https://arxiv.org/abs/2502.09018) has been accepted to IEEE ICML 2026 (Acceptance Rate: 28.89%)!
 * **[2026/2/21]** Our paper [**Parallel In-context Learning for Large Vision Language Models**](https://arxiv.org/abs/2603.16092) has been suggested for Findings of CVPR 2026 (Top 35% of the reviewed submissions)!
 * **[2026/2/21]** Our paper [**Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought**](https://arxiv.org/abs/2507.07685) has been accepted to CVPR 2026 (Main Conference, Acceptance Rate: 25.42%)!
@@ -211,7 +212,7 @@ PeerJ PrePrints, 2015
 ---
 
 # Honors
-- Outstanding Reviewer: ICML 2022, NeurIPS 2024 Main Track, NeurIPS 2024 Dataset & Benchmark Track
+- Outstanding Reviewer: ICML 2022, NeurIPS 2024 Main Track, NeurIPS 2024 Dataset & Benchmark Track, ICML 2026
 - 令和四年度 (2022) PRMU研究奨励賞 (outstanding research award at a Japanese domestic conference)
 - ACML2023 Best Paper Award
 
