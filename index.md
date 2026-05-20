@@ -213,7 +213,7 @@ PeerJ PrePrints, 2015
 ## Invited Talk
 1. <u>S. Yamaguchi</u>,  
 **Toward Informative, Training-free, and Task-agnostic Inherently Interpretability based on Pre-trained Vision-Language Models**,  
-[Interpretable Deep Learning Seminar](https://interpretabledeeplearning.github.io/) (Online). [[Slide]](https://yshinya6.github.io/files/20260520_interpretable_dl_seminar.pdf)  
+[Interpretable Deep Learning Seminar](https://interpretabledeeplearning.github.io/) (Online). May 2025. [[Slide]](https://yshinya6.github.io/files/20260520_interpretable_dl_seminar.pdf)  
 
 
 
