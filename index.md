@@ -20,7 +20,8 @@ I am an associate distinguished researcher at [NTT](https://www.rd.ntt/e/cds/).
 My research interests are machine learning with synthetic data, generative models, vision-language models, interpretability, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
-* **[2026/5/15]** I received the Gold Reviewer Award at ICML 2026 (Top 25% Reviewer).
+* **[2026/5/19]** I got selected as an Outstanding Reviewer at CVPR 2026 (Top 5% Reviewer)!
+* **[2026/5/15]** I received the Gold Reviewer Award at ICML 2026 (Top 25% Reviewer)!
 * **[2026/3/18]** Our paper [**Zero-shot Concept Bottleneck Models**](https://arxiv.org/abs/2502.09018) has been accepted to IEEE ICME 2026 (Acceptance Rate: 28.89%)!
 * **[2026/2/21]** Our paper [**Parallel In-context Learning for Large Vision Language Models**](https://arxiv.org/abs/2603.16092) has been suggested for Findings of CVPR 2026 (Top 35% of the reviewed submissions)!
 * **[2026/2/21]** Our paper [**Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought**](https://arxiv.org/abs/2507.07685) has been accepted to CVPR 2026 (Main Conference, Acceptance Rate: 25.42%)!
@@ -28,12 +29,12 @@ My research interests are machine learning with synthetic data, generative model
 * **[2025/11/10]** Our paper [**Distribution Highlighted Reference-based Label Distribution Learning for Facial Age Estimation**](https://openaccess.thecvf.com/content/WACV2026/html/Suzuki_Distribution_Highlighted_Reference-based_Label_Distribution_Learning_for_Facial_Age_Estimation_WACV_2026_paper.html) has been accepted to WACV 2026!
 * **[2025/11/9]** Our paper **[Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models](https://arxiv.org/abs/2511.09973)** has been accepted to AAAI 2026 (Acceptance Rate: 17.6%)! We proposed a robust fine-tuning method for CLIP-like models, which preserves geometric structures in feature spaces to maintain zero-shot performance.
 * **[2025/9/24]** My doctoral dissertation, **[Dataset Synthesis with Deep Generative Models](https://repository.kulib.kyoto-u.ac.jp/items/610a9db4-75a2-4a2f-bf9c-d0bf94578190)**, has been accepted, and I received a PhD in Informatics!
-* **[2025/4/1]** Our paper [**Evaluation of Time-Series Training Dataset through Lens of Spectrum of Deep State Space Models**](https://arxiv.org/abs/2408.16261) has been accepted to IJCNN 2025!
-* **[2025/2/26]** Our paper [**Post-pre-training for Modality Alignment in Vision-Language Foundation Models**](https://arxiv.org/abs/2504.12717) has been accepted to CVPR 2025! We propose a very lightweight post-pre-training method for aligning pre-trained vision-language models like CLIP.
 
 <details markdown="1">
   <summary><b><u>Past Updates</u></b></summary>
 
+  * **[2025/4/1]** Our paper [**Evaluation of Time-Series Training Dataset through Lens of Spectrum of Deep State Space Models**](https://arxiv.org/abs/2408.16261) has been accepted to IJCNN 2025!
+  * **[2025/2/26]** Our paper [**Post-pre-training for Modality Alignment in Vision-Language Foundation Models**](https://arxiv.org/abs/2504.12717) has been accepted to CVPR 2025! We propose a very lightweight post-pre-training method for aligning pre-trained vision-language models like CLIP.
   * **[2025/01/22]** Our paper [**Test-time Adaptation for Regression by Subspace Alignment**](https://arxiv.org/abs/2410.03263) has been accepted to ICLR 2025! This paper proposes a novel test-time adaptation method for regression tasks by aligning features on a subspace.
   * **[2025/01/21]** Our paper [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833) has been accepted to Machine Learning Journal (ECML-PKDD Journal Track)! We propose a generative transfer learning method based on pre-trained large generative models for a severe setting where we cannot access source datasets and pre-trained weights for target tasks.
   * **[2024/12/10]** Our paper [**Explanation Bottleneck Models**](https://arxiv.org/abs/2409.17663) has been accepted to AAAI 2025 (**acceptance rate: 23%**)! We propose a new interpretable model that generates text explanations and predicts the final label based on the text explanation. This work will be presented at the Workshop on Foundation Model Intervention (MINT) @ NeurIPS2024!
@@ -209,10 +210,17 @@ PeerJ PrePrints, 2015
   - Supervisor: Hisashi Kashima (Kyoto University)
   - Committee: Koh Nishino and Hidetoshi Shimodaira (Kyoto University)
 
+## Invited Talk
+1. <u>S. Yamaguchi</u>,  
+**Toward Informative, Training-free, and Task-agnostic Inherently Interpretability based on Pre-trained Vision-Language Models**,  
+[Interpretable Deep Learning Seminar](https://interpretabledeeplearning.github.io/) (Online). [[Slide]](https://yshinya6.github.io/files/20260520_interpretable_dl_seminar.pdf)  
+
+
+
 ---
 
 # Honors
-- Outstanding Reviewer: ICML 2022, NeurIPS 2024 Main Track, NeurIPS 2024 Dataset & Benchmark Track, ICML 2026
+- Outstanding Reviewer: ICML 2022, NeurIPS 2024 Main Track, NeurIPS 2024 Dataset & Benchmark Track, ICML 2026, CVPR 2026
 - 令和四年度 (2022) PRMU研究奨励賞 (outstanding research award at a Japanese domestic conference)
 - ACML2023 Best Paper Award
 
