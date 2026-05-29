@@ -88,7 +88,7 @@ h1 {
 main section { padding: 58px 0; }
 .teaser-section { text-align: center; }
 .teaser {
-  width: min(740px, 200%);
+  width: min(1480px, 100%);
   border-radius: 22px;
   background: white;
   padding: 22px;
