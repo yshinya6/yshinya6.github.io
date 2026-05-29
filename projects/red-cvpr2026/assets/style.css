@@ -87,12 +87,15 @@ h1 {
 main section { padding: 58px 0; }
 .teaser-section { text-align: center; }
 .teaser {
-  width: min(740px, 100%);
+  /* width: min(740px, 100%);
   border-radius: 22px;
   background: white;
   padding: 22px;
   box-shadow: var(--shadow);
-  border: 1px solid var(--line);
+  border: 1px solid var(--line); */
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .caption, figcaption {
   color: var(--muted);
@@ -188,4 +191,72 @@ figure img { width: 100%; display: block; border-radius: 14px; }
   .hero { padding-top: 58px; }
   main section { padding: 42px 0; }
   .teaser { padding: 14px; }
+}
+
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 24px 0;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #111;
+  background: #fff;
+  border-top: 2px solid #111;
+}
+
+.results-table th,
+.results-table td {
+  padding: 4px 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.results-table thead th {
+  font-weight: 700;
+  border-bottom: 2px solid #111;
+}
+
+.results-table td:first-child,
+.results-table .model-row th {
+  text-align: left;
+}
+
+.results-table .model-row th {
+  padding: 4px 8px;
+  font-weight: 700;
+  border-top: 1px solid #999;
+}
+
+.results-table .gemma4 th {
+  background: #dbe9f4;
+}
+
+.results-table .gemma12 th {
+  background: #dddaf2;
+}
+
+.results-table .qwen th {
+  background: #f3ead2;
+}
+
+.results-table .llama th {
+  background: #f5dada;
+}
+
+.results-table .pos {
+  color: #0047ff;
+}
+
+.results-table .neg {
+  color: #e00000;
+}
+
+.results-table strong {
+  font-weight: 700;
 }

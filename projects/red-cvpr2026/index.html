@@ -8,7 +8,7 @@
   <meta property="og:title" content="Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought" />
   <meta property="og:description" content="CVPR 2026 project page for RED: a training-free decoding strategy that grounds LVLM answers in both images and generated rationales." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/overview.png" />
+  <meta property="og:image" content="assets/top.png" />
   <link rel="stylesheet" href="assets/style.css" />
   <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script>
@@ -39,21 +39,21 @@
       </div>
       <p class="affiliation">NTT</p>
       <div class="actions" aria-label="Project links">
-        <a class="button primary" href="https://openaccess.thecvf.com/content/CVPR2026/html/Yamaguchi_Rationale-Enhanced_Decoding_for_Multi-modal_Chain-of-Thought_CVPR_2026_paper.html">
+        <a class="button" href="https://openaccess.thecvf.com/content/CVPR2026/html/Yamaguchi_Rationale-Enhanced_Decoding_for_Multi-modal_Chain-of-Thought_CVPR_2026_paper.html">
           <i class="fa-regular fa-file-pdf"></i>
-          <span>Paper</span>
+          <span> Paper</span>
         </a>
-        <a class="button primary" href="https://arxiv.org/abs/2507.07685v2">
+        <a class="button" href="https://arxiv.org/abs/2507.07685v2">
           <i class="ai ai-arxiv"></i>
-          <span>arXiv</span>
+          <span> arXiv</span>
         </a>
         <a class="button" href="https://github.com/yshinya6/red">
           <i class="fa-brands fa-github"></i>
-          <span>Code</span>
+          <span> Code</span>
         </a>
         <a class="button" href="#bibtex">
           <i class="fa-solid fa-book"></i>
-          <span>BibTex</span>
+          <span> BibTex</span>
         </a>
       </div>
     </div>
@@ -61,7 +61,7 @@
 
   <main>
     <section class="container teaser-section">
-      <img class="teaser" src="assets/overview.png" alt="Overview diagram comparing existing multimodal chain-of-thought prompting with Rationale-Enhanced Decoding." />
+      <img class="teaser" src="assets/top.png" alt="Overview diagram comparing existing multimodal chain-of-thought prompting with Rationale-Enhanced Decoding." />
       <p class="caption">Existing multimodal CoT often lets the final answer rely heavily on the image while underusing the generated rationale. RED decouples image-conditioned and rationale-conditioned predictions, then combines them at the logit level.</p>
     </section>
 
@@ -137,11 +137,88 @@ while not finished:
       </div>
       <div class="figure-row">
         <figure>
-          <img src="assets/intervention_table.png" alt="Intervention table showing RED improves with higher-quality GPT-4 rationales and degrades with random rationales." />
+          <div class="table-wrap">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Self ↑</th>
+                  <th>GPT-4 ↑</th>
+                  <th>Random ↓</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr class="model-row gemma4">
+                  <th colspan="4">Gemma-3-4B</th>
+                </tr>
+                <tr>
+                  <td>CCoT</td>
+                  <td>44.54 <span class="pos">(+4.54)</span></td>
+                  <td>45.79 <span class="pos">(+5.79)</span></td>
+                  <td>44.35 <span class="pos">(+4.35)</span></td>
+                </tr>
+                <tr>
+                  <td>CCoT + RED</td>
+                  <td><strong>45.87 <span class="pos">(+5.87)</span></strong></td>
+                  <td><strong>48.93 <span class="pos">(+8.93)</span></strong></td>
+                  <td>39.36 <span class="neg">(-0.64)</span></td>
+                </tr>
+
+                <tr class="model-row gemma12">
+                  <th colspan="4">Gemma-3-12B</th>
+                </tr>
+                <tr>
+                  <td>CCoT</td>
+                  <td>44.50 <span class="neg">(-0.84)</span></td>
+                  <td>45.61 <span class="pos">(+0.27)</span></td>
+                  <td>44.30 <span class="neg">(-1.04)</span></td>
+                </tr>
+                <tr>
+                  <td>CCoT + RED</td>
+                  <td><strong>47.50 <span class="pos">(+2.16)</span></strong></td>
+                  <td><strong>50.04 <span class="pos">(+4.70)</span></strong></td>
+                  <td>43.29 <span class="neg">(-2.05)</span></td>
+                </tr>
+
+                <tr class="model-row qwen">
+                  <th colspan="4">Qwen2.5-VL-7B</th>
+                </tr>
+                <tr>
+                  <td>CCoT</td>
+                  <td>46.69 <span class="neg">(-14.19)</span></td>
+                  <td>50.85 <span class="neg">(-10.03)</span></td>
+                  <td>51.76 <span class="neg">(-9.12)</span></td>
+                </tr>
+                <tr>
+                  <td>CCoT + RED</td>
+                  <td><strong>61.92 <span class="pos">(+1.04)</span></strong></td>
+                  <td><strong>63.11 <span class="pos">(+2.23)</span></strong></td>
+                  <td>41.74 <span class="neg">(-19.14)</span></td>
+                </tr>
+
+                <tr class="model-row llama">
+                  <th colspan="4">Llama3-LLaVA-Next-8B</th>
+                </tr>
+                <tr>
+                  <td>CCoT</td>
+                  <td>60.43 <span class="neg">(-4.79)</span></td>
+                  <td>57.84 <span class="neg">(-7.38)</span></td>
+                  <td>60.91 <span class="neg">(-4.31)</span></td>
+                </tr>
+                <tr>
+                  <td>CCoT + RED</td>
+                  <td><strong>65.91 <span class="pos">(+0.69)</span></strong></td>
+                  <td><strong>67.88 <span class="pos">(+2.66)</span></strong></td>
+                  <td>58.70 <span class="neg">(-6.52)</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <figcaption>Intervention analysis: RED benefits from high-quality GPT-4 rationales and degrades with random rationales, indicating stronger rationale grounding.</figcaption>
         </figure>
         <figure>
-          <img src="assets/scalability.png" alt="Plot of GQA accuracy over model sizes for baseline, CCoT, and CCoT plus RED." />
+          <img src="assets/model_scale.png" alt="Plot of GQA accuracy over model sizes for baseline, CCoT, and CCoT plus RED." />
           <figcaption>Scaling analysis: RED unlocks stronger performance as LVLM size increases, while standard CCoT does not consistently scale.</figcaption>
         </figure>
       </div>
@@ -153,7 +230,7 @@ while not finished:
         <p>When the rationale contains the decisive evidence, standard CoT can still answer incorrectly. RED uses the rationale content during decoding, producing answers aligned with the generated reasoning.</p>
       </div>
       <figure class="card figure-card">
-        <img src="assets/qualitative.png" alt="Qualitative examples from GQA showing RED extracts correct answers from generated rationales." />
+        <img src="assets/visualization.svg" alt="Qualitative examples from GQA showing RED extracts correct answers from generated rationales." />
         <figcaption>Examples from GQA: RED follows the rationale to answer “grass” for fire hydrant location and “aluminium” for fence material.</figcaption>
       </figure>
     </section>
