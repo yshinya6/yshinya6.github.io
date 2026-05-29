@@ -192,12 +192,12 @@ figure img { width: 100%; display: block; border-radius: 14px; }
 }
 
 .presentation-section {
+  text-align: center;
   margin-top: 48px;
   margin-bottom: 72px;
 }
 
 .presentation-section h2 {
-  text-align: center;
   margin-bottom: 28px;
 }
 
