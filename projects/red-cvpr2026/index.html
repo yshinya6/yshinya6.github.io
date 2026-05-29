@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought</title>
+  <meta name="description" content="Project page for Rationale-Enhanced Decoding (RED), a plug-and-play inference-time decoding strategy for rationale-grounded multimodal chain-of-thought reasoning." />
+  <meta property="og:title" content="Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought" />
+  <meta property="og:description" content="CVPR 2026 project page for RED: a training-free decoding strategy that grounds LVLM answers in both images and generated rationales." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/overview.png" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script defer id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <p class="venue">CVPR 2026</p>
+      <h1>Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought</h1>
+      <p class="subtitle">A plug-and-play decoding strategy that makes large vision-language models use their intermediate rationales more faithfully during multimodal reasoning.</p>
+      <div class="authors">
+        <span>Shin'ya Yamaguchi</span>
+        <span>Kosuke Nishida</span>
+        <span>Daiki Chijiwa</span>
+      </div>
+      <p class="affiliation">NTT</p>
+      <div class="actions" aria-label="Project links">
+        <a class="button primary" href="https://arxiv.org/abs/2507.07685v2">Paper</a>
+        <a class="button" href="https://github.com/yshinya6/red">Code</a>
+        <a class="button" href="#bibtex">BibTeX</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container teaser-section">
+      <img class="teaser" src="assets/overview.png" alt="Overview diagram comparing existing multimodal chain-of-thought prompting with Rationale-Enhanced Decoding." />
+      <p class="caption">Existing multimodal CoT often lets the final answer rely heavily on the image while underusing the generated rationale. RED decouples image-conditioned and rationale-conditioned predictions, then combines them at the logit level.</p>
+    </section>
+
+    <section class="container grid two-col" id="abstract">
+      <div>
+        <h2>Abstract</h2>
+        <p>Large vision-language models (LVLMs) are commonly prompted to generate intermediate rationales before answering visual questions. However, this paper finds that standard multimodal chain-of-thought (CoT) can fail to ground the final answer in those rationales: replacing a rationale with an irrelevant one can leave performance almost unchanged.</p>
+        <p>Rationale-Enhanced Decoding (RED) addresses this failure at inference time, without additional training or architectural changes. RED composes two next-token distributions: one conditioned on the image and query, and one conditioned on the rationale and query. The resulting decoder encourages tokens that are supported by both visual evidence and the generated rationale.</p>
+      </div>
+      <div class="card takeaway">
+        <h3>Key idea</h3>
+        <p>Instead of decoding with a single distribution \(p(y_i \mid y_{<i}, x, r, q)\), RED uses a product-of-experts form:</p>
+        <p class="equation">\[\hat{p}_\theta(y_i) \propto p_\theta(y_i \mid y_{<i}, x, q) \; p_\theta(y_i \mid y_{<i}, r, q)^\lambda\]</p>
+        <p>This is derived as the optimal solution to a KL-constrained reward maximization objective where rationale-conditional likelihood acts as the reward.</p>
+      </div>
+    </section>
+
+    <section class="container" id="motivation">
+      <h2>Why do we need RED?</h2>
+      <div class="grid three-col">
+        <article class="card">
+          <h3>1. CoT rationales are not always used</h3>
+          <p>Attention contribution analysis shows that when image and rationale tokens are both present, LVLMs can focus mostly on the image and reduce the influence of rationale tokens.</p>
+        </article>
+        <article class="card">
+          <h3>2. Irrelevant rationales may not hurt</h3>
+          <p>Swapping in rationales from other examples often preserves standard CoT performance, suggesting that the final answer is not semantically grounded in the rationale.</p>
+        </article>
+        <article class="card">
+          <h3>3. Training-free grounding is practical</h3>
+          <p>RED modifies only decoding. It can be applied to off-the-shelf LVLMs and arbitrary rationale formats, including free-form descriptions and scene graphs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container grid two-col" id="method">
+      <div>
+        <h2>Method</h2>
+        <p>RED first generates a rationale using a standard multimodal CoT prompt. During answer generation, it runs two conditional predictions: an image-conditional branch \(p_\theta(y_i \mid y_{<i}, x, q)\) and a rationale-conditional branch \(p_\theta(y_i \mid y_{<i}, r, q)\).</p>
+        <p>The log-softmax logits from the two branches are added with rationale weight \(\lambda\):</p>
+        <p class="equation">\[\hat{\ell}_\theta(y_i) = \log \mathrm{softmax}(\ell_	heta(y_i \mid y_{<i}, x, q)) + \lambda \log \mathrm{softmax}(\ell_	heta(y_i \mid y_{<i}, r, q))\]</p>
+        <p>The next token is sampled or greedily selected from \(\mathrm{softmax}(\hat{\ell}_\theta)\). This simple change makes the output prefer tokens jointly supported by image evidence and rationale evidence.</p>
+      </div>
+      <div class="card code-card">
+        <h3>Algorithm sketch</h3>
+<pre><code>r = generate(model, image, query)
+y = []
+while not finished:
+    logits_img = model(image, query, y)
+    logits_rat = model(rationale=r, query=query, y=y)
+    red_logits = log_softmax(logits_img) \
+               + lambda * log_softmax(logits_rat)
+    y.append(decode(red_logits))</code></pre>
+      </div>
+    </section>
+
+    <section class="container" id="results">
+      <h2>Results</h2>
+      <p class="section-lead">Across general visual reasoning, text-rich VQA, mathematical reasoning, hallucination benchmarks, and larger LVLMs, RED consistently improves over standard CoT and competitive plug-and-play decoding baselines.</p>
+      <div class="results-grid">
+        <article class="card stat">
+          <span class="stat-number">+275.35</span>
+          <span class="stat-label">MME cognition delta for Gemma-3-4B with CoT + RED</span>
+        </article>
+        <article class="card stat">
+          <span class="stat-number">+20.24</span>
+          <span class="stat-label">SEED-I delta for Qwen2.5-VL-7B with CCoT + RED</span>
+        </article>
+        <article class="card stat">
+          <span class="stat-number">61.6%</span>
+          <span class="stat-label">MMMU accuracy with Qwen2.5-VL-7B and CoT + RED</span>
+        </article>
+      </div>
+      <div class="figure-row">
+        <figure>
+          <img src="assets/intervention_table.png" alt="Intervention table showing RED improves with higher-quality GPT-4 rationales and degrades with random rationales." />
+          <figcaption>Intervention analysis: RED benefits from high-quality GPT-4 rationales and degrades with random rationales, indicating stronger rationale grounding.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/scalability.png" alt="Plot of GQA accuracy over model sizes for baseline, CCoT, and CCoT plus RED." />
+          <figcaption>Scaling analysis: RED unlocks stronger performance as LVLM size increases, while standard CCoT does not consistently scale.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="container grid two-col" id="qualitative">
+      <div>
+        <h2>Qualitative examples</h2>
+        <p>When the rationale contains the decisive evidence, standard CoT can still answer incorrectly. RED uses the rationale content during decoding, producing answers aligned with the generated reasoning.</p>
+      </div>
+      <figure class="card figure-card">
+        <img src="assets/qualitative.png" alt="Qualitative examples from GQA showing RED extracts correct answers from generated rationales." />
+        <figcaption>Examples from GQA: RED follows the rationale to answer “grass” for fire hydrant location and “aluminium” for fence material.</figcaption>
+      </figure>
+    </section>
+
+    <section class="container" id="resources">
+      <h2>Resources</h2>
+      <div class="resource-list">
+        <a href="https://arxiv.org/abs/2507.07685v2">arXiv paper</a>
+        <a href="https://github.com/yshinya6/red">GitHub repository</a>
+      </div>
+    </section>
+
+    <section class="container" id="bibtex">
+      <h2>BibTeX</h2>
+      <pre class="bibtex"><code>@inproceedings{Yamaguchi_CVPR26_RED,
+  title     = {Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought},
+  author    = {Yamaguchi, Shin'ya and Nishida, Kosuke and Chijiwa, Daiki},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year      = {2026}
+}</code></pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Project page template for <strong>Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought</strong>.</p>
+      <p class="small">Built as a static GitHub Pages site. Figure assets are adapted from the paper draft for project-page presentation.</p>
+    </div>
+  </footer>
+</body>
+</html>
