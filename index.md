@@ -88,7 +88,7 @@ IEEE International Conference on Multimedia & Expo (ICME), 2026. [[Code]](https:
 Findings of The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026. [[Code]](https://github.com/yshinya6/parallel-icl)   
 3. <u>S. Yamaguchi</u>, K. Nishida, D. Chijiwa,  
 [**Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought**](https://arxiv.org/abs/2507.07685),  
-The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026. [[Code]](https://github.com/yshinya6/red)  
+The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026. [[Project Page]](https://yshinya6.github.io/projects/red-cvpr2026/) [[Code]](https://github.com/yshinya6/red)  
 4. D. Chijiwa, T. Hasegawa, K. Nishida, <u>S. Yamaguchi</u>, T. Ohba, T. Sakao, S. Takeuchi,  
 [**Lossless Vocabulary Reduction for Auto-Regressive Language Models**](https://arxiv.org/abs/2510.08102),  
 International Conference on Learning Representations (ICLR), 2026. 
