@@ -190,3 +190,29 @@ figure img { width: 100%; display: block; border-radius: 14px; }
   main section { padding: 42px 0; }
   .teaser { padding: 14px; }
 }
+
+.video-section {
+  text-align: center;
+}
+
+.video-section h2 {
+  margin-bottom: 24px;
+}
+
+.video-wrapper {
+  position: relative;
+  width: min(100%, 960px);
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+  background: #000;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
