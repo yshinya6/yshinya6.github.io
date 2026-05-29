@@ -87,15 +87,12 @@ h1 {
 main section { padding: 58px 0; }
 .teaser-section { text-align: center; }
 .teaser {
-  /* width: min(740px, 100%);
+  width: min(740px, 100%);
   border-radius: 22px;
   background: white;
   padding: 22px;
   box-shadow: var(--shadow);
-  border: 1px solid var(--line); */
-  width: 100%;
-  height: auto;
-  display: block;
+  border: 1px solid var(--line);
 }
 .caption, figcaption {
   color: var(--muted);
