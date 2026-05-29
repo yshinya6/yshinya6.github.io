@@ -59,7 +59,7 @@
       <div class="card takeaway">
         <h3>Key idea</h3>
         <p>Instead of decoding with a single distribution \(p(y_i \mid y_{\lt i}, x, r, q)\), RED uses a product-of-experts form:</p>
-        <p class="equation">\[\hat{p}_\theta(y_i) \propto p_\theta(y_i \mid y_{\lt i}, x, q) \; p_\theta(y_i \mid y_{\lt i}, r, q)^\lambda\]</p>
+        <p class="equation">\[\hat{p}_\\theta(y_i) \propto p_\\theta(y_i \mid y_{\lt i}, x, q) \; p_\\theta(y_i \mid y_{\lt i}, r, q)^\lambda\]</p>
         <p>This is derived as the optimal solution to a KL-constrained reward maximization objective where rationale-conditional likelihood acts as the reward.</p>
       </div>
     </section>
@@ -85,10 +85,10 @@
     <section class="container grid two-col" id="method">
       <div>
         <h2>Method</h2>
-        <p>RED first generates a rationale using a standard multimodal CoT prompt. During answer generation, it runs two conditional predictions: an image-conditional branch \(p_\theta(y_i \mid y_{\lt i}, x, q)\) and a rationale-conditional branch \(p_\theta(y_i \mid y_{\lt i}, r, q)\).</p>
+        <p>RED first generates a rationale using a standard multimodal CoT prompt. During answer generation, it runs two conditional predictions: an image-conditional branch \(p_\\theta(y_i \mid y_{\lt i}, x, q)\) and a rationale-conditional branch \(p_\\theta(y_i \mid y_{\lt i}, r, q)\).</p>
         <p>The log-softmax logits from the two branches are added with rationale weight \(\lambda\):</p>
-        <p class="equation">\[\hat{\ell}_\theta(y_i) = \log \mathrm{softmax}(\ell_	heta(y_i \mid y_{\lt i}, x, q)) + \lambda \log \mathrm{softmax}(\ell_	heta(y_i \mid y_{\lt i}, r, q))\]</p>
-        <p>The next token is sampled or greedily selected from \(\mathrm{softmax}(\hat{\ell}_\theta)\). This simple change makes the output prefer tokens jointly supported by image evidence and rationale evidence.</p>
+        <p class="equation">\[\hat{\ell}_\\theta(y_i) = \log \mathrm{softmax}(\ell_\\theta(y_i \mid y_{\lt i}, x, q)) + \lambda \log \mathrm{softmax}(\ell_\\theta(y_i \mid y_{\lt i}, r, q))\]</p>
+        <p>The next token is sampled or greedily selected from \(\mathrm{softmax}(\hat{\ell}_\\theta)\). This simple change makes the output prefer tokens jointly supported by image evidence and rationale evidence.</p>
       </div>
       <div class="card code-card">
         <h3>Algorithm sketch</h3>
