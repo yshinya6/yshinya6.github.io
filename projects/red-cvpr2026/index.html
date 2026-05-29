@@ -23,6 +23,8 @@
     };
   </script>
   <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 <body>
   <header class="hero">
@@ -31,15 +33,28 @@
       <h1>Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought</h1>
       <p class="subtitle">A plug-and-play decoding strategy that makes large vision-language models use their intermediate rationales more faithfully during multimodal reasoning.</p>
       <div class="authors">
-        <span>Shin'ya Yamaguchi</span>
+        <span><b>Shin'ya Yamaguchi</b></span>
         <span>Kosuke Nishida</span>
         <span>Daiki Chijiwa</span>
       </div>
       <p class="affiliation">NTT</p>
       <div class="actions" aria-label="Project links">
-        <a class="button primary" href="https://arxiv.org/abs/2507.07685v2">Paper</a>
-        <a class="button" href="https://github.com/yshinya6/red">Code</a>
-        <a class="button" href="#bibtex">BibTeX</a>
+        <a class="button primary" href="https://openaccess.thecvf.com/content/CVPR2026/html/Yamaguchi_Rationale-Enhanced_Decoding_for_Multi-modal_Chain-of-Thought_CVPR_2026_paper.html">
+          <i class="fa-regular fa-file-pdf"></i>
+          <span>Paper</span>
+        </a>
+        <a class="button primary" href="https://arxiv.org/abs/2507.07685v2">
+          <i class="ai ai-arxiv"></i>
+          <span>arXiv</span>
+        </a>
+        <a class="button" href="https://github.com/yshinya6/red">
+          <i class="fa-brands fa-github"></i>
+          <span>Code</span>
+        </a>
+        <a class="button" href="#bibtex">
+          <i class="fa-solid fa-book"></i>
+          <span>BibTex</span>
+        </a>
       </div>
     </div>
   </header>
@@ -58,7 +73,7 @@
       </div>
       <div class="card takeaway">
         <h3>Key idea</h3>
-        <p>Instead of decoding with a single distribution \(p(y_i \mid y_{\lt i}, x, r, q)\), RED uses a product-of-experts form:</p>
+        <p>Instead of decoding with a single distribution \(p(y_i \mid y_{\lt i}, x, r, q)\), RED uses a <b>product-of-experts</b> form:</p>
         <p class="equation">\[\hat{p}_\theta(y_i) \propto p_\theta(y_i \mid y_{\lt i}, x, q) \; p_\theta(y_i \mid y_{\lt i}, r, q)^\lambda\]</p>
         <p>This is derived as the optimal solution to a KL-constrained reward maximization objective where rationale-conditional likelihood acts as the reward.</p>
       </div>
@@ -68,16 +83,16 @@
       <h2>Why do we need RED?</h2>
       <div class="grid three-col">
         <article class="card">
-          <h3>1. CoT rationales are not always used</h3>
+          <h3>1. LVLMs do not have much attention to rationales in the standard CoT</h3>
           <p>Attention contribution analysis shows that when image and rationale tokens are both present, LVLMs can focus mostly on the image and reduce the influence of rationale tokens.</p>
         </article>
         <article class="card">
-          <h3>2. Irrelevant rationales may not hurt</h3>
+          <h3>2. LVLMs are not faithful to rationales</h3>
           <p>Swapping in rationales from other examples often preserves standard CoT performance, suggesting that the final answer is not semantically grounded in the rationale.</p>
         </article>
         <article class="card">
-          <h3>3. Training-free grounding is practical</h3>
-          <p>RED modifies only decoding. It can be applied to off-the-shelf LVLMs and arbitrary rationale formats, including free-form descriptions and scene graphs.</p>
+          <h3>3. Existing methods require additional training or architectural changes</h3>
+          <p>They can not be applied to off-the-shelf LVLMs and arbitrary rationale formats, including free-form descriptions and scene graphs.</p>
         </article>
       </div>
     </section>
