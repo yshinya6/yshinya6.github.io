@@ -217,3 +217,25 @@ figure img { width: 100%; display: block; border-radius: 14px; }
   height: 100% !important;
   border: 0;
 }
+
+.qualitative-section {
+  grid-template-columns: minmax(260px, 0.8fr) minmax(560px, 1.4fr);
+  align-items: center;
+  gap: 48px;
+}
+
+.qualitative-figure {
+  width: 100%;
+}
+
+.qualitative-figure img {
+  width: 100%;
+  max-width: none;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .qualitative-section {
+    grid-template-columns: 1fr;
+  }
+}
