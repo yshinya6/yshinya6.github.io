@@ -20,6 +20,7 @@ I am an associate distinguished researcher at [NTT](https://www.rd.ntt/e/cds/).
 My research interests are machine learning with synthetic data, generative models, vision-language models, interpretability, distribution shifts, self-supervised learning, and semi-supervised learning.
 
 # Updates
+* **[2026/9/1]** Our paper **[Uniformity First: Uniformity-aware Test-time Adaptation of Vision-language Models against Image Corruption](https://arxiv.org/abs/2505.12912)** has been accepted by TMLR!
 * **[2026/5/19]** I got selected as an Outstanding Reviewer at CVPR 2026 (Top 5% Reviewer)!
 * **[2026/5/15]** I received the Gold Reviewer Award at ICML 2026 (Top 25% Reviewer)!
 * **[2026/3/18]** Our paper [**Zero-shot Concept Bottleneck Models**](https://arxiv.org/abs/2502.09018) has been accepted to IEEE ICME 2026 (Acceptance Rate: 28.89%)!
@@ -45,7 +46,7 @@ My research interests are machine learning with synthetic data, generative model
   * **[2023/11/23]** Our preprint [**On the Limitation of Diffusion Models for Synthesizing Training Datasets**](https://arxiv.org/abs/2311.13090) appeared in arXiv! We analyzed diffusion models with various perspectives and found that modern diffusion models have a limitation on the ability to replicate datasets in terms of accuracy when the synthetic samples are used for training classifiers. This work will be presented at [NeurIPS 2023 SyntheticData4ML Workshop](https://www.syntheticdata4ml.vanderschaar-lab.com/). 
   * **[2023/11/15]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been received Best Paper Award from ACML 2023! 
   * **[2023/09/22]** Our paper [**Regularizing Neural Networks with Meta-Learning Generative Models**](https://arxiv.org/abs/2307.13899) has been accepted to NeurIPS 2023! In this paper, we propose a novel meta-learning-based regularization method (MGR) using synthetic samples from pre-trained generative models. In contrast to conventional generative data augmentation methods, MGR utilizes synthetic samples for regularizing only feature extractors and finds useful samples through meta-learning of latent variables.
-  * **[2023/09/11]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been accepted to ACML 2023! This paper proposes a real unlabeled-dateless semi-supervised learning that utilizes a foundation generative model as the unlabeled data source. We introduce a meta-optimization-based sampling algorithm for extracting synthetic unlabeled data from the foundation generative model and a cosine similarity-based unsupervised loss function for updating the feature extractor of the classifier by the synthetic samples.
+  * **[2023/09/11]** My solo paper [**Generative Semi-supervised Learning with Meta-Optimized Synthetic Samples**](https://arxiv.org/abs/2309.16143) has been accepted to ACML 2023! This paper proposes a real unlabeled-dataless semi-supervised learning that utilizes a foundation generative model as the unlabeled data source. We introduce a meta-optimization-based sampling algorithm for extracting synthetic unlabeled data from the foundation generative model and a cosine similarity-based unsupervised loss function for updating the feature extractor of the classifier by the synthetic samples.
 </details>
 
 ---
@@ -56,7 +57,8 @@ My research interests are machine learning with synthetic data, generative model
 - 2023: CVPR, PAKDD, ICML, ICCV, NeurIPS, IPSJ, DMLR@ICML2023, BMVC, ACML, TNNLS
 - 2024: WACV, ICLR, CVPR, DMLR@ICLR2024, ICML, ECCV, NeurIPS, NeurIPS DB Track, ACML, DMLR@ICML2024, TMLR
 - 2025: AAAI, ICLR, AISTATS, CVPR, ICML, TMLR, ICCV, NeurIPS, Pattern Recognition
-- 2026: WACV, AAAI, ICLR, CVPR, ICME, ICML, TPAMI, ECCV
+- 2026: WACV, AAAI, ICLR, CVPR, ICME, ICML, ARR May, TPAMI, ECCV
+- 2027: WACV, AAAI
 
 ---
 
@@ -166,10 +168,13 @@ AAAI Conference on Artificial Intelligence (AAAI), 2020. [[arXiv]](https://arxiv
 Asian Conference on Intelligent Information and Database Systems (ACIIDS), 2017
 
 ## International Journal
-1. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
+1. K. Adachi, <u>S. Yamaguchi</u>, T. Hamagami,  
+[**Uniformity First: Uniformity-aware Test-time Adaptation of Vision-language Models against Image Corruption**](https://arxiv.org/abs/2505.12912),  
+Transactions on Machine Learning Research (TMLR), 2026. [[OpenReview]](https://openreview.net/forum?id=YELPe35KIg) [[Code]](https://github.com/kzkadc/uninfo)
+2. <u>S. Yamaguchi</u>, S. Kanai, A. Kumagai, D. Chijiwa, H. Kashima,  
 [**Transfer Learning with Pre-trained Conditional Generative Models**](https://arxiv.org/abs/2204.12833),  
 Machine Learning Journal (ECML-PKDD Journal Track), 2025.
-2. T. Sasaki, A. S. Walmsley, S. Enomoto, K. Adachi, <u>S. Yamaguchi</u>  
+3. T. Sasaki, A. S. Walmsley, S. Enomoto, K. Adachi, <u>S. Yamaguchi</u>  
 **[Key Factors Determining the Required Number of Training Images in Person Re-Identification](https://ieeexplore.ieee.org/document/10681056)**,  
 IEEE Access.
 
@@ -194,13 +199,10 @@ Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023.
 1. S. Enomoto, <u>S. Yamaguchi</u>,  
 [**MultiModal Fine-tuning with Synthetic Captions**](https://arxiv.org/abs/2601.21426),  
 arXiv, 2025. [[Code]](https://github.com/s-enmt/MMFT)   
-2. K. Adachi, <u>S. Yamaguchi</u>, T. Hamagami,  
-[**Uniformity First: Uniformity-aware Test-time Adaptation of Vision-language Models against Image Corruption**](https://arxiv.org/abs/2505.12912),  
-arXiv, 2025. [[Code]](https://github.com/kzkadc/uninfo)  
-3. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
+2. <u>S. Yamaguchi</u>, S. Kanai, T. Shioda, S. Takeda,  
 [**Multiple pretext-task for self-supervised learning via mixing multiple image transformations**](https://arxiv.org/abs/1912.11603v1),  
 arXiv, 2019.
-4. K. Kuramitsu, <u>S. Yamaguchi</u>,  
+3. K. Kuramitsu, <u>S. Yamaguchi</u>,  
 [**XML Schema Validation using Parsing Expression Grammars**](https://peerj.com/preprints/1503.pdf),  
 PeerJ PrePrints, 2015
 
