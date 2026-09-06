@@ -218,7 +218,7 @@ PeerJ PrePrints, 2015
 [FIT 2026](https://www.ipsj.or.jp/event/fit/fit2026/index.html) (in Japanese). Sep 2026. [[Slide]](https://yshinya6.github.io/files/20260903_fit2026_xbm.pdf)  
 2. <u>S. Yamaguchi</u>,  
 **Rationale-Enhanced Decoding for Multi-modal Chain-of-Thought**,  
-[The 29th Meeting on Image Recognition and Understanding (MIRU2026)](https://miru-committee.github.io/miru2026/en/) (in Japanese). Aug 2026. [[Slide]](https://yshinya6.github.io/files/20260804_red_miru.pdf) (in Japanese) 
+[The 29th Meeting on Image Recognition and Understanding (MIRU2026)](https://miru-committee.github.io/miru2026/en/) (in Japanese). Aug 2026. [[Slide]](https://yshinya6.github.io/files/20260804_red_miru.pdf) 
 3. <u>S. Yamaguchi</u>,  
 **Toward Informative, Training-free, and Task-agnostic Inherently Interpretability based on Pre-trained Vision-Language Models**,  
 [Interpretable Deep Learning Seminar](https://interpretabledeeplearning.github.io/) (Online). May 2026. [[Slide]](https://yshinya6.github.io/files/20260520_interpretable_dl_seminar.pdf)  
